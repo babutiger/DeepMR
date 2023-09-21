@@ -1,0 +1,23 @@
+/verify/mnist_new_10x80/mpbp:
+mnist_property_0 -- delta_base : 0.014
+mnist_property_0 -- time : 492.7765460014343
+mnist_property_1 -- delta_base : 0.023
+mnist_property_1 -- time : 459.1596415042877
+mnist_property_2 -- delta_base : 0.008
+mnist_property_2 -- time : 495.1423428058624
+mnist_property_3 -- delta_base : 0.02
+mnist_property_3 -- time : 432.17507100105286
+mnist_property_4 -- delta_base : 0.011
+mnist_property_4 -- time : 478.4925682544708
+mnist_property_5 -- delta_base : 0.009
+mnist_property_5 -- time : 483.14926195144653
+mnist_property_6 -- delta_base : 0.014
+mnist_property_6 -- time : 498.733060836792
+mnist_property_7 -- delta_base : 0.006
+mnist_property_7 -- time : 534.5299007892609
+mnist_property_8 -- delta_base : 0.009
+mnist_property_8 -- time : 445.6819553375244
+mnist_property_9 -- delta_base : 0.013
+mnist_property_9 -- time : 477.5281591415405
+
+Process finished with exit code 0
