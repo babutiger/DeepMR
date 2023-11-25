@@ -1,0 +1,180 @@
+MPBP Algorithm Max Verified Distrubance: 0.002
+Abstract Mode Changed: 0
+Refreshed uncertain ReLu nodes: 1
+Run uncertain ReLu nodes: 1782
+Run activated ReLu nodes: 36
+Abstract Mode Changed: 10
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 1753
+Run activated ReLu nodes: 22
+Abstract Mode Changed: 6
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 1709
+Run activated ReLu nodes: 16
+Abstract Mode Changed: 3
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 1679
+Run activated ReLu nodes: 17
+Abstract Mode Changed: 3
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 1584
+Run activated ReLu nodes: 8
+Split: 0 Area: 99.9999999997671
+Disturbance: 0.033 Failed!
+Abstract Mode Changed: 0
+Refreshed uncertain ReLu nodes: 4
+Run uncertain ReLu nodes: 1606
+Run activated ReLu nodes: 100
+Abstract Mode Changed: 11
+Refreshed uncertain ReLu nodes: 5
+Run uncertain ReLu nodes: 1585
+Run activated ReLu nodes: 91
+Abstract Mode Changed: 4
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 1553
+Run activated ReLu nodes: 75
+Abstract Mode Changed: 3
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 1538
+Run activated ReLu nodes: 57
+Abstract Mode Changed: 1
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 1499
+Run activated ReLu nodes: 40
+Split: 0 Area: 99.99999999947632
+Disturbance: 0.017 Failed!
+Abstract Mode Changed: 0
+Refreshed uncertain ReLu nodes: 12
+Run uncertain ReLu nodes: 1394
+Run activated ReLu nodes: 181
+Abstract Mode Changed: 12
+Refreshed uncertain ReLu nodes: 6
+Run uncertain ReLu nodes: 1361
+Run activated ReLu nodes: 179
+Abstract Mode Changed: 7
+Refreshed uncertain ReLu nodes: 3
+Run uncertain ReLu nodes: 1344
+Run activated ReLu nodes: 148
+Abstract Mode Changed: 8
+Refreshed uncertain ReLu nodes: 1
+Run uncertain ReLu nodes: 1326
+Run activated ReLu nodes: 135
+Abstract Mode Changed: 0
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 1290
+Run activated ReLu nodes: 124
+Split: 0 Area: 99.99999999911068
+Disturbance: 0.009 Failed!
+Abstract Mode Changed: 0
+Refreshed uncertain ReLu nodes: 132
+Run uncertain ReLu nodes: 532
+Run activated ReLu nodes: 756
+Abstract Mode Changed: 21
+Split: 0 Infeasible
+verification neuron: 6 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed uncertain ReLu nodes: 35
+Run uncertain ReLu nodes: 592
+Run activated ReLu nodes: 625
+Abstract Mode Changed: 4
+Refreshed uncertain ReLu nodes: 90
+Run uncertain ReLu nodes: 471
+Run activated ReLu nodes: 748
+Abstract Mode Changed: 17
+Split: 0 Infeasible
+verification neuron: 4 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed uncertain ReLu nodes: 36
+Run uncertain ReLu nodes: 592
+Run activated ReLu nodes: 624
+Abstract Mode Changed: 11
+Refreshed uncertain ReLu nodes: 134
+Run uncertain ReLu nodes: 448
+Run activated ReLu nodes: 802
+Abstract Mode Changed: 13
+Split: 0 Infeasible
+verification neuron: 5 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed uncertain ReLu nodes: 35
+Run uncertain ReLu nodes: 593
+Run activated ReLu nodes: 627
+Abstract Mode Changed: 5
+Refreshed uncertain ReLu nodes: 102
+Run uncertain ReLu nodes: 462
+Run activated ReLu nodes: 758
+Abstract Mode Changed: 16
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed uncertain ReLu nodes: 34
+Run uncertain ReLu nodes: 593
+Run activated ReLu nodes: 623
+Abstract Mode Changed: 4
+Refreshed uncertain ReLu nodes: 74
+Run uncertain ReLu nodes: 475
+Run activated ReLu nodes: 719
+Abstract Mode Changed: 17
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed uncertain ReLu nodes: 33
+Run uncertain ReLu nodes: 594
+Run activated ReLu nodes: 622
+Abstract Mode Changed: 2
+Refreshed uncertain ReLu nodes: 31
+Run uncertain ReLu nodes: 508
+Run activated ReLu nodes: 651
+Abstract Mode Changed: 10
+Refreshed uncertain ReLu nodes: 156
+Run uncertain ReLu nodes: 389
+Run activated ReLu nodes: 857
+Abstract Mode Changed: 12
+Split: 0 Infeasible
+verification neuron: 7 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed uncertain ReLu nodes: 35
+Run uncertain ReLu nodes: 592
+Run activated ReLu nodes: 625
+Abstract Mode Changed: 1
+Refreshed uncertain ReLu nodes: 21
+Run uncertain ReLu nodes: 515
+Run activated ReLu nodes: 641
+Abstract Mode Changed: 7
+Refreshed uncertain ReLu nodes: 18
+Run uncertain ReLu nodes: 463
+Run activated ReLu nodes: 637
+Abstract Mode Changed: 4
+Refreshed uncertain ReLu nodes: 12
+Run uncertain ReLu nodes: 424
+Run activated ReLu nodes: 616
+Abstract Mode Changed: 5
+Refreshed uncertain ReLu nodes: 13
+Run uncertain ReLu nodes: 400
+Run activated ReLu nodes: 624
+Split: 0 Area: 99.99999999832457
+Disturbance: 0.005 Failed!
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed uncertain ReLu nodes: 118
+Run uncertain ReLu nodes: 200
+Run activated ReLu nodes: 946
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 8 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(MPBP_algorithm)%: 100.0
+Disturbance: 0.003 Success!
+Abstract Mode Changed: 0
+Refreshed uncertain ReLu nodes: 54
+Run uncertain ReLu nodes: 377
+Run activated ReLu nodes: 748
+Abstract Mode Changed: 18
+Refreshed uncertain ReLu nodes: 47
+Run uncertain ReLu nodes: 273

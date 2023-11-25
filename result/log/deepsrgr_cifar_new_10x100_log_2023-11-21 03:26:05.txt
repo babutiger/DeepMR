@@ -1,0 +1,20 @@
+../../cifar_properties/cifar_properties_10x100/cifar_property_0.txt
+DeepPoly Max Verified Distrubance: 0.002
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 1786
+Abstract Mode Changed: 45
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 1753
+Abstract Mode Changed: 26
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 1704
+Abstract Mode Changed: 9
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 1651
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 1596
+Split: 0 Area: 99.9999999997671
+Disturbance: 0.033 Failed!
+Abstract Mode Changed: 0

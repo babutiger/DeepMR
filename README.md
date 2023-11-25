@@ -1,20 +1,22 @@
 ## DeepMR is a new neural network validation tool
 
-The "mnsit_properties" folder is used to store MNIST data to be validated, which can all be prepared for classification by the models awaiting validation.
+The "mnist_properties" folder is used to store MNIST data for verification, which can be classified by models awaiting validation.
 
-The "models" folder stores the neural network models to be validated.
+The "cifar_properties" folder is used to store CIFAR10 data for validation.
 
-The "multipath_bp" folder contains the code necessary to run the aCROWN and MPBP algorithms.
+The "models" folder stores neural network models for validation.
 
-The "result" folder holds the experimental results.
+The "multipath_bp" folder contains the code required to run the aCROWN and MPBP algorithms.
 
-The "utils" folder contains some utility code.
+The "result" folder saves experimental results, where the "log" folder contains log data from code execution with additional details, and the "original_result" folder contains raw results obtained from code execution.
 
-The "verify" folder is for comparative experiments of validation algorithms, including aCROWN, DeepPoly, DeepSRGR, MPBP, and DeepMR. The MPBP algorithm is implemented within the DeepMR algorithm. To obtain MPBP results, run the "mnist_robustness_radius" function in the "deepmr_mnist_new_10x80.py" file. To obtain DeepMR results, run the "mnist_robustness_radius_lp" function. Running other Python files will provide validation results for that specific algorithm.
+The "sources" folder saves MNIST and CIFAR10 datasets downloaded from official sources.
 
-We have only provided results for a 10x80 MNIST neural network as an example, but further validation with different types of datasets and post-training validation of neural networks, such as the CIFAR dataset, is possible.
+The "utils" folder includes some utility code.
 
-It's important to note that we are focusing on fully connected networks with ReLU activation functions.
+The "verify" folder is used for comparative experiments of verification algorithms, including aCROWN, DeepPoly, DeepSRGR, MPBP, and DeepMR.Running the Python file yields the verification results for the algorithm. We provide a total of 6 neural network models for validation, including 3 MNIST networks and 3 CIFAR10 networks.
+
+It is important to note that we focus on fully connected networks with ReLU activation functions.
 
 In the code for DeepMR and DeepSRGR, the section related to linear programming solvers is parallelized. If your machine has good performance, preferably a multi-core server, you can increase the number of processes. We have set the default number of processes to WORKERS=12 and the number of iterations to 5. Because linear programming solving is slow, more processes will speed up the solving process.
 
