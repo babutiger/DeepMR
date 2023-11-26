@@ -178,3 +178,46 @@ Run activated ReLu nodes: 748
 Abstract Mode Changed: 18
 Refreshed uncertain ReLu nodes: 47
 Run uncertain ReLu nodes: 273
+Run activated ReLu nodes: 871
+Abstract Mode Changed: 10
+Refreshed uncertain ReLu nodes: 67
+Run uncertain ReLu nodes: 160
+Run activated ReLu nodes: 960
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 8 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed uncertain ReLu nodes: 53
+Run uncertain ReLu nodes: 374
+Run activated ReLu nodes: 738
+Abstract Mode Changed: 6
+Refreshed uncertain ReLu nodes: 76
+Run uncertain ReLu nodes: 259
+Run activated ReLu nodes: 897
+Abstract Mode Changed: 16
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed uncertain ReLu nodes: 39
+Run uncertain ReLu nodes: 385
+Run activated ReLu nodes: 728
+Abstract Mode Changed: 8
+Refreshed uncertain ReLu nodes: 32
+Run uncertain ReLu nodes: 310
+Run activated ReLu nodes: 793
+Abstract Mode Changed: 14
+Refreshed uncertain ReLu nodes: 55
+Run uncertain ReLu nodes: 227
+Run activated ReLu nodes: 909
+Abstract Mode Changed: 9
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(MPBP_algorithm)%: 100.0
+Disturbance: 0.004 Success!
+cifar_property_0 -- delta_base : 0.004
+cifar_property_0 -- time : 478168.54471182823
+MPBP Algorithm Max Verified Distrubance: 0.0
+Abstract Mode Changed: 0
