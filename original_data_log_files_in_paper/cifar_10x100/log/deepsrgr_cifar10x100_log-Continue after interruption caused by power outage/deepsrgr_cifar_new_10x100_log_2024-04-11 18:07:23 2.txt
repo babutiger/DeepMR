@@ -1,0 +1,127 @@
+Abstract Mode Changed: 0
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-02-01
+Refreshed ReLu nodes: 96
+Run uncertain ReLu nodes: 284
+refresh_time_once: 36315.388134241104
+Abstract Mode Changed: 11
+Split: 0 Infeasible
+verification neuron: 5 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 19
+Run uncertain ReLu nodes: 302
+refresh_time_once: 37395.23059105873
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 246
+refresh_time_once: 37101.79647374153
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 190
+refresh_time_once: 36669.77637028694
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 160
+refresh_time_once: 36712.85540699959
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 158
+refresh_time_once: 36961.91449022293
+Split: 0 Area: 100.0
+Disturbance: 0.0027 Failed!
+cifar_property_20 -- UnVerified
+time: 221305.07312345505
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 35
+Run uncertain ReLu nodes: 871
+refresh_time_once: 41847.52702188492
+Abstract Mode Changed: 6
+Refreshed ReLu nodes: 29
+Run uncertain ReLu nodes: 773
+refresh_time_once: 41023.032705545425
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 698
+refresh_time_once: 40186.039705991745
+Abstract Mode Changed: 7
+Refreshed ReLu nodes: 14
+Run uncertain ReLu nodes: 623
+refresh_time_once: 40032.810579538345
+Abstract Mode Changed: 8
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 600
+refresh_time_once: 40286.4472155571
+Split: 0 Area: 100.0
+Disturbance: 0.0027 Failed!
+cifar_property_19 -- UnVerified
+time: 203499.42328357697
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 32
+Run uncertain ReLu nodes: 200
+refresh_time_once: 36665.16175723076
+Abstract Mode Changed: 8
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+refresh_count: 1
+refresh_time_average: 36665.16175723076
+Disturbance: 0.0027 Success!
+cifar_property_18 -- Verified
+time: 36713.14202952385
+Property Verified
+Disturbance: 0.0027 Success!
+cifar_property_17 -- Verified
+time: 11.012445449829102
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 117
+Run uncertain ReLu nodes: 406
+refresh_time_once: 37885.50099730492
+Abstract Mode Changed: 16
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 110
+Run uncertain ReLu nodes: 409
+refresh_time_once: 38600.795669317245
+Abstract Mode Changed: 24
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 76
+Run uncertain ReLu nodes: 421
+refresh_time_once: 37868.25047683716
+Abstract Mode Changed: 16
+Split: 0 Infeasible
+verification neuron: 8 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 21
+Run uncertain ReLu nodes: 463
+refresh_time_once: 38581.26958322525
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 417
+refresh_time_once: 37919.01205825806
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 379
+refresh_time_once: 37920.36780548096
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 338
+refresh_time_once: 37839.700872421265
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 291
+refresh_time_once: 38097.689038038254
+Split: 0 Area: 100.0
+Disturbance: 0.0027 Failed!
+cifar_property_16 -- UnVerified
+time: 304944.75872921944
+Property Verified
+Disturbance: 0.0027 Success!
+cifar_property_15 -- Verified
+time: 11.542515754699707
+Abstract Mode Changed: 0

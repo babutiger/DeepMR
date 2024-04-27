@@ -1,0 +1,205 @@
+mnist_property_0 -- UnVerified
+time: 3.401517391204834
+mnist_property_1 -- Verified
+time: 2.1112327575683594
+mnist_property_2 -- UnVerified
+time: 3.4104537963867188
+mnist_property_3 -- Verified
+time: 2.1094114780426025
+mnist_property_4 -- UnVerified
+time: 3.018627643585205
+mnist_property_5 -- UnVerified
+time: 3.3202836513519287
+mnist_property_6 -- UnVerified
+time: 2.9775917530059814
+mnist_property_7 -- UnVerified
+time: 3.1893434524536133
+mnist_property_8 -- UnVerified
+time: 3.127631425857544
+mnist_property_9 -- Verified
+time: 1.972517728805542
+mnist_property_10 -- Verified
+time: 2.0844650268554688
+mnist_property_11 -- UnVerified
+time: 2.5290472507476807
+mnist_property_12 -- UnVerified
+time: 2.5900778770446777
+mnist_property_13 -- Verified
+time: 2.099247694015503
+mnist_property_14 -- UnVerified
+time: 3.2168474197387695
+mnist_property_15 -- UnVerified
+time: 2.6596386432647705
+mnist_property_16 -- UnVerified
+time: 2.9690799713134766
+mnist_property_17 -- UnVerified
+time: 2.4599602222442627
+mnist_property_18 -- UnVerified
+time: 2.9713916778564453
+mnist_property_19 -- UnVerified
+time: 2.424408197402954
+mnist_property_20 -- UnVerified
+time: 3.2490153312683105
+mnist_property_21 -- UnVerified
+time: 3.0450305938720703
+mnist_property_22 -- Verified
+time: 2.09588885307312
+mnist_property_23 -- Verified
+time: 1.9933791160583496
+mnist_property_24 -- UnVerified
+time: 3.357905387878418
+mnist_property_25 -- Verified
+time: 1.9880907535552979
+mnist_property_26 -- UnVerified
+time: 2.375079870223999
+mnist_property_27 -- Verified
+time: 2.0039901733398438
+mnist_property_28 -- Verified
+time: 2.0858421325683594
+mnist_property_29 -- UnVerified
+time: 3.3925819396972656
+mnist_property_30 -- Verified
+time: 1.9544825553894043
+mnist_property_31 -- UnVerified
+time: 3.428690195083618
+mnist_property_32 -- Verified
+time: 2.056281328201294
+mnist_property_33 -- UnVerified
+time: 2.9113869667053223
+mnist_property_34 -- Verified
+time: 2.2015910148620605
+mnist_property_35 -- Verified
+time: 2.0117971897125244
+mnist_property_36 -- UnVerified
+time: 3.0234568119049072
+mnist_property_37 -- UnVerified
+time: 3.3650834560394287
+mnist_property_38 -- UnVerified
+time: 3.2228055000305176
+mnist_property_39 -- UnVerified
+time: 3.265449285507202
+mnist_property_40 -- UnVerified
+time: 3.461109161376953
+mnist_property_41 -- UnVerified
+time: 2.906853437423706
+mnist_property_42 -- UnVerified
+time: 3.0030925273895264
+mnist_property_43 -- UnVerified
+time: 3.3074817657470703
+mnist_property_44 -- UnVerified
+time: 3.204573392868042
+mnist_property_45 -- UnVerified
+time: 3.2505295276641846
+mnist_property_46 -- UnVerified
+time: 3.249730110168457
+mnist_property_47 -- Verified
+time: 2.322500467300415
+mnist_property_48 -- Verified
+time: 1.9678874015808105
+mnist_property_49 -- UnVerified
+time: 2.7978742122650146
+mnist_property_50 -- UnVerified
+time: 3.1011481285095215
+mnist_property_51 -- Verified
+time: 1.970916748046875
+mnist_property_52 -- UnVerified
+time: 2.876081705093384
+mnist_property_53 -- UnVerified
+time: 3.245495080947876
+mnist_property_54 -- Verified
+time: 1.9560792446136475
+mnist_property_55 -- UnVerified
+time: 2.716149091720581
+mnist_property_56 -- Verified
+time: 2.0577046871185303
+mnist_property_57 -- UnVerified
+time: 3.3308234214782715
+mnist_property_58 -- UnVerified
+time: 2.656050443649292
+mnist_property_59 -- UnVerified
+time: 3.3944315910339355
+mnist_property_60 -- Verified
+time: 2.003722906112671
+mnist_property_61 -- UnVerified
+time: 3.154371976852417
+mnist_property_62 -- UnVerified
+time: 3.384258985519409
+mnist_property_63 -- UnVerified
+time: 3.175980806350708
+mnist_property_64 -- UnVerified
+time: 2.2976431846618652
+mnist_property_65 -- UnVerified
+time: 3.3889710903167725
+mnist_property_66 -- UnVerified
+time: 3.2230422496795654
+mnist_property_67 -- UnVerified
+time: 2.811147689819336
+mnist_property_68 -- Verified
+time: 1.8879344463348389
+mnist_property_69 -- Verified
+time: 2.0445375442504883
+mnist_property_70 -- Verified
+time: 2.075324296951294
+mnist_property_71 -- Verified
+time: 1.941291332244873
+mnist_property_72 -- Verified
+time: 2.080239772796631
+mnist_property_73 -- UnVerified
+time: 3.1543707847595215
+mnist_property_74 -- UnVerified
+time: 3.3723020553588867
+mnist_property_75 -- Verified
+time: 2.216372013092041
+mnist_property_76 -- UnVerified
+time: 2.974202871322632
+mnist_property_77 -- UnVerified
+time: 2.402613878250122
+mnist_property_78 -- UnVerified
+time: 3.23258376121521
+mnist_property_79 -- UnVerified
+time: 2.680051803588867
+mnist_property_80 -- UnVerified
+time: 3.0563786029815674
+mnist_property_81 -- UnVerified
+time: 3.032745122909546
+mnist_property_82 -- Verified
+time: 1.9879069328308105
+mnist_property_83 -- UnVerified
+time: 3.1478140354156494
+mnist_property_84 -- UnVerified
+time: 2.978778600692749
+mnist_property_85 -- Verified
+time: 1.9828987121582031
+mnist_property_86 -- UnVerified
+time: 3.1067681312561035
+mnist_property_87 -- Verified
+time: 2.103806734085083
+mnist_property_88 -- Verified
+time: 1.9712255001068115
+mnist_property_89 -- UnVerified
+time: 3.3176982402801514
+mnist_property_90 -- Verified
+time: 2.049663543701172
+mnist_property_91 -- UnVerified
+time: 2.388322114944458
+mnist_property_92 -- UnVerified
+time: 3.3358476161956787
+mnist_property_93 -- UnVerified
+time: 2.394380569458008
+mnist_property_94 -- UnVerified
+time: 3.153702735900879
+mnist_property_95 -- UnVerified
+time: 2.5034539699554443
+mnist_property_96 -- UnVerified
+time: 3.4477226734161377
+mnist_property_97 -- UnVerified
+time: 3.108607769012451
+mnist_property_98 -- UnVerified
+time: 2.9122817516326904
+mnist_property_99 -- Verified
+time: 2.1042044162750244
+delta: 0.019
+number_sum: 32
+time_sum: 272.0322868824005
+time_average: 2.720322868824005
+time_max: 3.461109161376953

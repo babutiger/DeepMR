@@ -1,0 +1,106 @@
+Files already downloaded and verified
+img_index: 0
+cifar_property_0 -- UnVerified
+cifar_property_0 -- delta_base : 0.003
+cifar_property_0 -- time : 0.5828886032104492
+tmp: 0
+img_index: 1
+cifar_property_1 -- UnVerified
+cifar_property_1 -- delta_base : 0.003
+cifar_property_1 -- time : 0.5595262050628662
+tmp: 2
+img_index: 2
+cifar_property_2 -- UnVerified
+cifar_property_2 -- delta_base : 0.003
+cifar_property_2 -- time : 0.5680060386657715
+tmp: 5
+img_index: 3
+cifar_property_3 -- Verified
+cifar_property_3 -- delta_base : 0.003
+cifar_property_3 -- time : 0.5636613368988037
+tmp: 7
+img_index: 4
+cifar_property_4 -- Verified
+cifar_property_4 -- delta_base : 0.003
+cifar_property_4 -- time : 0.5659708976745605
+tmp: 9
+img_index: 5
+cifar_property_5 -- UnVerified
+cifar_property_5 -- delta_base : 0.003
+cifar_property_5 -- time : 0.5632696151733398
+tmp: 10
+img_index: 6
+cifar_property_6 -- Verified
+cifar_property_6 -- delta_base : 0.003
+cifar_property_6 -- time : 0.606745719909668
+tmp: 11
+img_index: 7
+cifar_property_7 -- Verified
+cifar_property_7 -- delta_base : 0.003
+cifar_property_7 -- time : 0.5677080154418945
+tmp: 13
+img_index: 8
+cifar_property_8 -- UnVerified
+cifar_property_8 -- delta_base : 0.003
+cifar_property_8 -- time : 0.5557160377502441
+tmp: 14
+img_index: 9
+cifar_property_9 -- UnVerified
+cifar_property_9 -- delta_base : 0.003
+cifar_property_9 -- time : 0.5563910007476807
+tmp: 15
+img_index: 10
+cifar_property_10 -- UnVerified
+cifar_property_10 -- delta_base : 0.003
+cifar_property_10 -- time : 0.574613094329834
+tmp: 16
+img_index: 11
+cifar_property_11 -- Verified
+cifar_property_11 -- delta_base : 0.003
+cifar_property_11 -- time : 0.5795261859893799
+tmp: 18
+img_index: 12
+cifar_property_12 -- UnVerified
+cifar_property_12 -- delta_base : 0.003
+cifar_property_12 -- time : 0.5757477283477783
+tmp: 19
+img_index: 13
+cifar_property_13 -- Verified
+cifar_property_13 -- delta_base : 0.003
+cifar_property_13 -- time : 0.5862259864807129
+tmp: 23
+img_index: 14
+cifar_property_14 -- Verified
+cifar_property_14 -- delta_base : 0.003
+cifar_property_14 -- time : 0.5768465995788574
+tmp: 28
+img_index: 15
+cifar_property_15 -- Verified
+cifar_property_15 -- delta_base : 0.003
+cifar_property_15 -- time : 0.6960742473602295
+tmp: 29
+img_index: 16
+cifar_property_16 -- UnVerified
+cifar_property_16 -- delta_base : 0.003
+cifar_property_16 -- time : 0.6836767196655273
+tmp: 30
+img_index: 17
+cifar_property_17 -- UnVerified
+cifar_property_17 -- delta_base : 0.003
+cifar_property_17 -- time : 0.6668801307678223
+tmp: 32
+img_index: 18
+cifar_property_18 -- UnVerified
+cifar_property_18 -- delta_base : 0.003
+cifar_property_18 -- time : 0.6594319343566895
+tmp: 33
+img_index: 19
+cifar_property_19 -- UnVerified
+cifar_property_19 -- delta_base : 0.003
+cifar_property_19 -- time : 0.5759878158569336
+34
+delta: 0.003
+number_sum: 8
+time_sum: 11.864893913269043
+time_average: 0.5932446956634522
+time_max: 0.6960742473602295

@@ -1,0 +1,205 @@
+acas_xu_p5_net_1_1/local_robustness_1 -- Verified
+time: 0.616077184677124
+acas_xu_p5_net_1_1/local_robustness_2 -- UnVerified
+time: 0.5893309116363525
+acas_xu_p5_net_1_1/local_robustness_3 -- UnVerified
+time: 0.6529660224914551
+acas_xu_p5_net_1_1/local_robustness_4 -- UnVerified
+time: 0.6350822448730469
+acas_xu_p5_net_1_1/local_robustness_5 -- Verified
+time: 0.6148486137390137
+acas_xu_p5_net_1_1/local_robustness_6 -- UnVerified
+time: 0.618384838104248
+acas_xu_p5_net_1_1/local_robustness_7 -- UnVerified
+time: 0.6262843608856201
+acas_xu_p5_net_1_1/local_robustness_8 -- UnVerified
+time: 0.6897892951965332
+acas_xu_p5_net_1_1/local_robustness_9 -- Verified
+time: 0.628058910369873
+acas_xu_p5_net_1_1/local_robustness_10 -- UnVerified
+time: 0.6355834007263184
+acas_xu_p5_net_1_1/local_robustness_11 -- UnVerified
+time: 0.6276547908782959
+acas_xu_p5_net_1_1/local_robustness_12 -- UnVerified
+time: 0.6387157440185547
+acas_xu_p5_net_1_1/local_robustness_13 -- Verified
+time: 0.6245691776275635
+acas_xu_p5_net_1_1/local_robustness_14 -- UnVerified
+time: 0.6411561965942383
+acas_xu_p5_net_1_1/local_robustness_15 -- UnVerified
+time: 0.6271877288818359
+acas_xu_p5_net_1_1/local_robustness_16 -- UnVerified
+time: 0.6255733966827393
+acas_xu_p5_net_1_1/local_robustness_17 -- Verified
+time: 0.625952959060669
+acas_xu_p5_net_1_1/local_robustness_18 -- UnVerified
+time: 0.63240647315979
+acas_xu_p5_net_1_1/local_robustness_19 -- UnVerified
+time: 0.6185169219970703
+acas_xu_p5_net_1_1/local_robustness_20 -- UnVerified
+time: 0.6039762496948242
+acas_xu_p5_net_1_1/local_robustness_21 -- UnVerified
+time: 0.6348786354064941
+acas_xu_p5_net_1_1/local_robustness_22 -- UnVerified
+time: 0.6120004653930664
+acas_xu_p5_net_1_1/local_robustness_23 -- UnVerified
+time: 0.6131000518798828
+acas_xu_p5_net_1_1/local_robustness_24 -- Verified
+time: 0.600806713104248
+acas_xu_p5_net_1_1/local_robustness_25 -- Verified
+time: 0.6168525218963623
+acas_xu_p5_net_1_1/local_robustness_26 -- UnVerified
+time: 0.6035516262054443
+acas_xu_p5_net_1_1/local_robustness_27 -- UnVerified
+time: 0.6667025089263916
+acas_xu_p5_net_1_1/local_robustness_28 -- UnVerified
+time: 0.6363952159881592
+acas_xu_p5_net_1_1/local_robustness_29 -- Verified
+time: 0.6171252727508545
+acas_xu_p5_net_1_1/local_robustness_30 -- UnVerified
+time: 0.6227941513061523
+acas_xu_p5_net_1_1/local_robustness_31 -- UnVerified
+time: 0.628178596496582
+acas_xu_p5_net_1_1/local_robustness_32 -- UnVerified
+time: 0.694774866104126
+acas_xu_p5_net_1_1/local_robustness_33 -- UnVerified
+time: 0.638596773147583
+acas_xu_p5_net_1_1/local_robustness_34 -- UnVerified
+time: 0.6468760967254639
+acas_xu_p5_net_1_1/local_robustness_35 -- UnVerified
+time: 0.629533052444458
+acas_xu_p5_net_1_1/local_robustness_36 -- UnVerified
+time: 0.6318683624267578
+acas_xu_p5_net_1_1/local_robustness_37 -- Verified
+time: 0.6298315525054932
+acas_xu_p5_net_1_1/local_robustness_38 -- UnVerified
+time: 0.6381831169128418
+acas_xu_p5_net_1_1/local_robustness_39 -- UnVerified
+time: 0.6251938343048096
+acas_xu_p5_net_1_1/local_robustness_40 -- UnVerified
+time: 0.6302025318145752
+acas_xu_p5_net_1_1/local_robustness_41 -- Verified
+time: 0.6269228458404541
+acas_xu_p5_net_1_1/local_robustness_42 -- UnVerified
+time: 0.6278681755065918
+acas_xu_p5_net_1_1/local_robustness_43 -- UnVerified
+time: 0.6140537261962891
+acas_xu_p5_net_1_1/local_robustness_44 -- UnVerified
+time: 0.6006689071655273
+acas_xu_p5_net_1_1/local_robustness_45 -- UnVerified
+time: 0.6361453533172607
+acas_xu_p5_net_1_1/local_robustness_46 -- UnVerified
+time: 0.6171548366546631
+acas_xu_p5_net_1_1/local_robustness_47 -- UnVerified
+time: 0.6153137683868408
+acas_xu_p5_net_1_1/local_robustness_48 -- Verified
+time: 0.6089067459106445
+acas_xu_p5_net_1_1/local_robustness_49 -- Verified
+time: 0.6091234683990479
+acas_xu_p5_net_1_1/local_robustness_50 -- Verified
+time: 0.6166675090789795
+acas_xu_p5_net_1_1/local_robustness_51 -- UnVerified
+time: 0.6169180870056152
+acas_xu_p5_net_1_1/local_robustness_52 -- UnVerified
+time: 0.6307320594787598
+acas_xu_p5_net_1_1/local_robustness_53 -- Verified
+time: 0.6029939651489258
+acas_xu_p5_net_1_1/local_robustness_54 -- Verified
+time: 0.5898575782775879
+acas_xu_p5_net_1_1/local_robustness_55 -- UnVerified
+time: 0.6024167537689209
+acas_xu_p5_net_1_1/local_robustness_56 -- UnVerified
+time: 0.6358423233032227
+acas_xu_p5_net_1_1/local_robustness_57 -- Verified
+time: 0.598473310470581
+acas_xu_p5_net_1_1/local_robustness_58 -- Verified
+time: 0.5857954025268555
+acas_xu_p5_net_1_1/local_robustness_59 -- UnVerified
+time: 0.6164016723632812
+acas_xu_p5_net_1_1/local_robustness_60 -- UnVerified
+time: 0.6031899452209473
+acas_xu_p5_net_1_1/local_robustness_61 -- Verified
+time: 0.6027963161468506
+acas_xu_p5_net_1_1/local_robustness_62 -- Verified
+time: 0.589287519454956
+acas_xu_p5_net_1_1/local_robustness_63 -- UnVerified
+time: 0.6131637096405029
+acas_xu_p5_net_1_1/local_robustness_64 -- UnVerified
+time: 0.6161062717437744
+acas_xu_p5_net_1_1/local_robustness_65 -- Verified
+time: 0.602877140045166
+acas_xu_p5_net_1_1/local_robustness_66 -- Verified
+time: 0.588463306427002
+acas_xu_p5_net_1_1/local_robustness_67 -- UnVerified
+time: 0.6088242530822754
+acas_xu_p5_net_1_1/local_robustness_68 -- UnVerified
+time: 0.6116781234741211
+acas_xu_p5_net_1_1/local_robustness_69 -- Verified
+time: 0.6010432243347168
+acas_xu_p5_net_1_1/local_robustness_70 -- Verified
+time: 0.5875232219696045
+acas_xu_p5_net_1_1/local_robustness_71 -- UnVerified
+time: 0.6158304214477539
+acas_xu_p5_net_1_1/local_robustness_72 -- UnVerified
+time: 0.6039013862609863
+acas_xu_p5_net_1_1/local_robustness_73 -- Verified
+time: 0.605029821395874
+acas_xu_p5_net_1_1/local_robustness_74 -- Verified
+time: 0.6140806674957275
+acas_xu_p5_net_1_1/local_robustness_75 -- UnVerified
+time: 0.6141388416290283
+acas_xu_p5_net_1_1/local_robustness_76 -- UnVerified
+time: 0.6230623722076416
+acas_xu_p5_net_1_1/local_robustness_77 -- Verified
+time: 0.5958206653594971
+acas_xu_p5_net_1_1/local_robustness_78 -- Verified
+time: 0.5857729911804199
+acas_xu_p5_net_1_1/local_robustness_79 -- UnVerified
+time: 0.6045496463775635
+acas_xu_p5_net_1_1/local_robustness_80 -- UnVerified
+time: 0.6370809078216553
+acas_xu_p5_net_1_1/local_robustness_81 -- Verified
+time: 0.5968737602233887
+acas_xu_p5_net_1_1/local_robustness_82 -- Verified
+time: 0.5829110145568848
+acas_xu_p5_net_1_1/local_robustness_83 -- UnVerified
+time: 0.6131389141082764
+acas_xu_p5_net_1_1/local_robustness_84 -- UnVerified
+time: 0.6032414436340332
+acas_xu_p5_net_1_1/local_robustness_85 -- Verified
+time: 0.6015000343322754
+acas_xu_p5_net_1_1/local_robustness_86 -- Verified
+time: 0.5864591598510742
+acas_xu_p5_net_1_1/local_robustness_87 -- UnVerified
+time: 0.6113739013671875
+acas_xu_p5_net_1_1/local_robustness_88 -- UnVerified
+time: 0.6163661479949951
+acas_xu_p5_net_1_1/local_robustness_89 -- Verified
+time: 0.6047415733337402
+acas_xu_p5_net_1_1/local_robustness_90 -- Verified
+time: 0.5914666652679443
+acas_xu_p5_net_1_1/local_robustness_91 -- UnVerified
+time: 0.616534948348999
+acas_xu_p5_net_1_1/local_robustness_92 -- UnVerified
+time: 0.6103973388671875
+acas_xu_p5_net_1_1/local_robustness_93 -- Verified
+time: 0.6075258255004883
+acas_xu_p5_net_1_1/local_robustness_94 -- Verified
+time: 0.5917532444000244
+acas_xu_p5_net_1_1/local_robustness_95 -- UnVerified
+time: 0.6212484836578369
+acas_xu_p5_net_1_1/local_robustness_96 -- UnVerified
+time: 0.6063024997711182
+acas_xu_p5_net_1_1/local_robustness_97 -- Verified
+time: 0.6191556453704834
+acas_xu_p5_net_1_1/local_robustness_98 -- Verified
+time: 0.5939452648162842
+acas_xu_p5_net_1_1/local_robustness_99 -- UnVerified
+time: 0.6111876964569092
+acas_xu_p5_net_1_1/local_robustness_100 -- Verified
+time: 0.6178288459777832
+delta: 2
+number_sum: 38
+time_sum: 61.66999101638794
+time_average: 0.6166999101638794
+time_max: 0.694774866104126

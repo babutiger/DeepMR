@@ -1,0 +1,305 @@
+Unverified
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-02-01
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 46
+refresh_time_once: 19.72200584411621
+Unverified
+Refreshed uncertain ReLu nodes: 1
+Run uncertain ReLu nodes: 43
+refresh_time_once: 20.87222909927368
+Unverified
+Refreshed uncertain ReLu nodes: 2
+Run uncertain ReLu nodes: 42
+refresh_time_once: 21.315823316574097
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 39
+refresh_time_once: 20.571332454681396
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 39
+refresh_time_once: 22.17740797996521
+refresh_count: 5
+refresh_time_average: 20.931759738922118
+Disturbance: 0.003 Failed!
+cifar_property_0 -- UnVerified
+time: 135.23472237586975
+Unverified
+Refreshed uncertain ReLu nodes: 3
+Run uncertain ReLu nodes: 51
+refresh_time_once: 22.059897899627686
+Unverified
+Refreshed uncertain ReLu nodes: 1
+Run uncertain ReLu nodes: 44
+refresh_time_once: 22.709545850753784
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 46
+refresh_time_once: 22.338273763656616
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 46
+refresh_time_once: 21.919375896453857
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 47
+refresh_time_once: 22.401976346969604
+refresh_count: 5
+refresh_time_average: 22.285813951492308
+Disturbance: 0.003 Failed!
+cifar_property_1 -- UnVerified
+time: 141.8335621356964
+Unverified
+Refreshed uncertain ReLu nodes: 2
+Run uncertain ReLu nodes: 56
+refresh_time_once: 20.288486003875732
+Unverified
+Refreshed uncertain ReLu nodes: 1
+Run uncertain ReLu nodes: 54
+refresh_time_once: 22.050060987472534
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 53
+refresh_time_once: 20.81145668029785
+Unverified
+Refreshed uncertain ReLu nodes: 6
+Run uncertain ReLu nodes: 51
+refresh_time_once: 19.165704488754272
+Unverified
+Refreshed uncertain ReLu nodes: 6
+Run uncertain ReLu nodes: 39
+refresh_time_once: 17.44665765762329
+refresh_count: 5
+refresh_time_average: 19.952473163604736
+Disturbance: 0.003 Failed!
+cifar_property_2 -- UnVerified
+time: 128.98895049095154
+Property Verified
+Disturbance: 0.003 Success!
+cifar_property_3 -- Verified
+time: 2.4525938034057617
+Property Verified
+Disturbance: 0.003 Success!
+cifar_property_4 -- Verified
+time: 2.4246556758880615
+Unverified
+Refreshed uncertain ReLu nodes: 6
+Run uncertain ReLu nodes: 33
+refresh_time_once: 18.492380142211914
+Unverified
+Refreshed uncertain ReLu nodes: 6
+Run uncertain ReLu nodes: 17
+refresh_time_once: 16.385109901428223
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 10
+refresh_time_once: 13.132831811904907
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 10
+refresh_time_once: 13.218393564224243
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 10
+refresh_time_once: 13.46205735206604
+refresh_count: 5
+refresh_time_average: 14.938154554367065
+Disturbance: 0.003 Failed!
+cifar_property_5 -- UnVerified
+time: 103.97055840492249
+Property Verified
+Disturbance: 0.003 Success!
+cifar_property_6 -- Verified
+time: 2.3651297092437744
+Property Verified
+Disturbance: 0.003 Success!
+cifar_property_7 -- Verified
+time: 2.3843894004821777
+Unverified
+Refreshed uncertain ReLu nodes: 5
+Run uncertain ReLu nodes: 39
+refresh_time_once: 20.443934440612793
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 32
+refresh_time_once: 19.363816499710083
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 32
+refresh_time_once: 17.57667303085327
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 32
+refresh_time_once: 18.007198095321655
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 32
+refresh_time_once: 19.334543228149414
+refresh_count: 5
+refresh_time_average: 18.945233058929443
+Disturbance: 0.003 Failed!
+cifar_property_8 -- UnVerified
+time: 124.0017626285553
+Unverified
+Refreshed uncertain ReLu nodes: 11
+Run uncertain ReLu nodes: 25
+refresh_time_once: 11.764668941497803
+Verified
+Disturbance: 0.003 Success!
+cifar_property_9 -- Verified
+time: 21.479844331741333
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 15
+refresh_time_once: 10.167738914489746
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 14
+refresh_time_once: 10.50745153427124
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 16
+refresh_time_once: 10.768765687942505
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 15
+refresh_time_once: 10.626342058181763
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 15
+refresh_time_once: 11.11589002609253
+refresh_count: 5
+refresh_time_average: 10.637237644195556
+Disturbance: 0.003 Failed!
+cifar_property_10 -- UnVerified
+time: 82.59606647491455
+Property Verified
+Disturbance: 0.003 Success!
+cifar_property_11 -- Verified
+time: 2.4308743476867676
+Unverified
+Refreshed uncertain ReLu nodes: 10
+Run uncertain ReLu nodes: 48
+refresh_time_once: 18.19555377960205
+Unverified
+Refreshed uncertain ReLu nodes: 5
+Run uncertain ReLu nodes: 33
+refresh_time_once: 15.071600675582886
+Unverified
+Refreshed uncertain ReLu nodes: 2
+Run uncertain ReLu nodes: 22
+refresh_time_once: 10.305264949798584
+Unverified
+Refreshed uncertain ReLu nodes: 3
+Run uncertain ReLu nodes: 19
+refresh_time_once: 10.657299041748047
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 14
+refresh_time_once: 9.594114542007446
+refresh_count: 5
+refresh_time_average: 12.764766597747803
+Disturbance: 0.003 Failed!
+cifar_property_12 -- UnVerified
+time: 93.18432569503784
+Property Verified
+Disturbance: 0.003 Success!
+cifar_property_13 -- Verified
+time: 2.3865602016448975
+Property Verified
+Disturbance: 0.003 Success!
+cifar_property_14 -- Verified
+time: 2.403109073638916
+Property Verified
+Disturbance: 0.003 Success!
+cifar_property_15 -- Verified
+time: 2.466529607772827
+Unverified
+Refreshed uncertain ReLu nodes: 22
+Run uncertain ReLu nodes: 80
+refresh_time_once: 26.35848116874695
+Verified
+Disturbance: 0.003 Success!
+cifar_property_16 -- Verified
+time: 36.547107219696045
+Unverified
+Refreshed uncertain ReLu nodes: 3
+Run uncertain ReLu nodes: 61
+refresh_time_once: 22.37221932411194
+Unverified
+Refreshed uncertain ReLu nodes: 2
+Run uncertain ReLu nodes: 56
+refresh_time_once: 26.430946111679077
+Unverified
+Refreshed uncertain ReLu nodes: 2
+Run uncertain ReLu nodes: 53
+refresh_time_once: 24.185492515563965
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 50
+refresh_time_once: 26.61164426803589
+Unverified
+Refreshed uncertain ReLu nodes: 3
+Run uncertain ReLu nodes: 48
+refresh_time_once: 25.319703817367554
+refresh_count: 5
+refresh_time_average: 24.984001207351685
+Disturbance: 0.003 Failed!
+cifar_property_17 -- UnVerified
+time: 154.6612045764923
+Unverified
+Refreshed uncertain ReLu nodes: 1
+Run uncertain ReLu nodes: 51
+refresh_time_once: 19.961414098739624
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 44
+refresh_time_once: 19.473357439041138
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 39
+refresh_time_once: 19.673811674118042
+Unverified
+Refreshed uncertain ReLu nodes: 1
+Run uncertain ReLu nodes: 38
+refresh_time_once: 19.381754159927368
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 39
+refresh_time_once: 19.127448558807373
+refresh_count: 5
+refresh_time_average: 19.52355718612671
+Disturbance: 0.003 Failed!
+cifar_property_18 -- UnVerified
+time: 127.3238434791565
+Unverified
+Refreshed uncertain ReLu nodes: 7
+Run uncertain ReLu nodes: 62
+refresh_time_once: 23.081650972366333
+Unverified
+Refreshed uncertain ReLu nodes: 11
+Run uncertain ReLu nodes: 42
+refresh_time_once: 17.74281358718872
+Unverified
+Refreshed uncertain ReLu nodes: 7
+Run uncertain ReLu nodes: 29
+refresh_time_once: 13.301693677902222
+Unverified
+Refreshed uncertain ReLu nodes: 2
+Run uncertain ReLu nodes: 16
+refresh_time_once: 10.024801969528198
+Unverified
+Refreshed uncertain ReLu nodes: 0
+Run uncertain ReLu nodes: 12
+refresh_time_once: 9.296446084976196
+refresh_count: 5
+refresh_time_average: 14.689481258392334
+Disturbance: 0.003 Failed!
+cifar_property_19 -- UnVerified
+time: 103.1786277294159
+delta: 0.003
+number_sum: 10
+time_sum: 1272.3144173622131
+time_average: 63.61572086811066
+time_max: 154.6612045764923
