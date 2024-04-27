@@ -1,0 +1,45 @@
+cifar_property_0 -- Verified
+time: 16.4978449344635
+cifar_property_1 -- UnVerified
+time: 18.74187207221985
+cifar_property_2 -- Verified
+time: 17.26290488243103
+cifar_property_3 -- Verified
+time: 17.07281231880188
+cifar_property_4 -- UnVerified
+time: 16.4582622051239
+cifar_property_5 -- Verified
+time: 15.976264476776123
+cifar_property_6 -- UnVerified
+time: 16.941404581069946
+cifar_property_7 -- UnVerified
+time: 16.268918991088867
+cifar_property_8 -- UnVerified
+time: 17.373209238052368
+cifar_property_9 -- UnVerified
+time: 16.619908332824707
+cifar_property_10 -- UnVerified
+time: 15.88126802444458
+cifar_property_11 -- Verified
+time: 16.154687643051147
+cifar_property_12 -- Verified
+time: 16.297719717025757
+cifar_property_13 -- Verified
+time: 15.771862268447876
+cifar_property_14 -- Verified
+time: 15.95716381072998
+cifar_property_15 -- UnVerified
+time: 17.151155710220337
+cifar_property_16 -- UnVerified
+time: 16.708515644073486
+cifar_property_17 -- Verified
+time: 16.01419162750244
+cifar_property_18 -- UnVerified
+time: 17.48392605781555
+cifar_property_19 -- UnVerified
+time: 18.400671005249023
+delta: 0.0038
+number_sum: 9
+time_sum: 335.03456354141235
+time_average: 16.751728177070618
+time_max: 18.74187207221985

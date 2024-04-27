@@ -1,0 +1,205 @@
+acas_xu_p6_net_1_1/local_robustness_1 -- Verified
+time: 0.6566343307495117
+acas_xu_p6_net_1_1/local_robustness_2 -- Verified
+time: 0.655940055847168
+acas_xu_p6_net_1_1/local_robustness_3 -- UnVerified
+time: 0.6703028678894043
+acas_xu_p6_net_1_1/local_robustness_4 -- UnVerified
+time: 0.6843786239624023
+acas_xu_p6_net_1_1/local_robustness_5 -- UnVerified
+time: 0.6669485569000244
+acas_xu_p6_net_1_1/local_robustness_6 -- UnVerified
+time: 0.6515071392059326
+acas_xu_p6_net_1_1/local_robustness_7 -- UnVerified
+time: 0.6515851020812988
+acas_xu_p6_net_1_1/local_robustness_8 -- UnVerified
+time: 0.6573545932769775
+acas_xu_p6_net_1_1/local_robustness_9 -- UnVerified
+time: 0.6578934192657471
+acas_xu_p6_net_1_1/local_robustness_10 -- UnVerified
+time: 0.6695225238800049
+acas_xu_p6_net_1_1/local_robustness_11 -- UnVerified
+time: 0.6761219501495361
+acas_xu_p6_net_1_1/local_robustness_12 -- UnVerified
+time: 0.6841473579406738
+acas_xu_p6_net_1_1/local_robustness_13 -- Verified
+time: 0.6524336338043213
+acas_xu_p6_net_1_1/local_robustness_14 -- Verified
+time: 0.6599476337432861
+acas_xu_p6_net_1_1/local_robustness_15 -- UnVerified
+time: 0.6680445671081543
+acas_xu_p6_net_1_1/local_robustness_16 -- UnVerified
+time: 0.6835973262786865
+acas_xu_p6_net_1_1/local_robustness_17 -- UnVerified
+time: 0.6761758327484131
+acas_xu_p6_net_1_1/local_robustness_18 -- UnVerified
+time: 0.6631293296813965
+acas_xu_p6_net_1_1/local_robustness_19 -- UnVerified
+time: 0.6660330295562744
+acas_xu_p6_net_1_1/local_robustness_20 -- UnVerified
+time: 0.6587750911712646
+acas_xu_p6_net_1_1/local_robustness_21 -- UnVerified
+time: 0.6713714599609375
+acas_xu_p6_net_1_1/local_robustness_22 -- UnVerified
+time: 0.6745929718017578
+acas_xu_p6_net_1_1/local_robustness_23 -- UnVerified
+time: 0.678734540939331
+acas_xu_p6_net_1_1/local_robustness_24 -- UnVerified
+time: 0.6814346313476562
+acas_xu_p6_net_1_1/local_robustness_25 -- Verified
+time: 0.6525804996490479
+acas_xu_p6_net_1_1/local_robustness_26 -- Verified
+time: 0.6614205837249756
+acas_xu_p6_net_1_1/local_robustness_27 -- UnVerified
+time: 0.6704907417297363
+acas_xu_p6_net_1_1/local_robustness_28 -- UnVerified
+time: 0.6876733303070068
+acas_xu_p6_net_1_1/local_robustness_29 -- UnVerified
+time: 0.6747276782989502
+acas_xu_p6_net_1_1/local_robustness_30 -- UnVerified
+time: 0.6578998565673828
+acas_xu_p6_net_1_1/local_robustness_31 -- UnVerified
+time: 0.6569650173187256
+acas_xu_p6_net_1_1/local_robustness_32 -- UnVerified
+time: 0.6612324714660645
+acas_xu_p6_net_1_1/local_robustness_33 -- UnVerified
+time: 0.6610093116760254
+acas_xu_p6_net_1_1/local_robustness_34 -- UnVerified
+time: 0.6728432178497314
+acas_xu_p6_net_1_1/local_robustness_35 -- UnVerified
+time: 0.6792805194854736
+acas_xu_p6_net_1_1/local_robustness_36 -- UnVerified
+time: 0.6882350444793701
+acas_xu_p6_net_1_1/local_robustness_37 -- Verified
+time: 0.6586625576019287
+acas_xu_p6_net_1_1/local_robustness_38 -- Verified
+time: 0.6649246215820312
+acas_xu_p6_net_1_1/local_robustness_39 -- UnVerified
+time: 0.6756033897399902
+acas_xu_p6_net_1_1/local_robustness_40 -- UnVerified
+time: 0.6895511150360107
+acas_xu_p6_net_1_1/local_robustness_41 -- UnVerified
+time: 0.6733551025390625
+acas_xu_p6_net_1_1/local_robustness_42 -- UnVerified
+time: 0.6647136211395264
+acas_xu_p6_net_1_1/local_robustness_43 -- UnVerified
+time: 0.6644852161407471
+acas_xu_p6_net_1_1/local_robustness_44 -- UnVerified
+time: 0.6643393039703369
+acas_xu_p6_net_1_1/local_robustness_45 -- UnVerified
+time: 0.6690988540649414
+acas_xu_p6_net_1_1/local_robustness_46 -- UnVerified
+time: 0.6808204650878906
+acas_xu_p6_net_1_1/local_robustness_47 -- UnVerified
+time: 0.6870667934417725
+acas_xu_p6_net_1_1/local_robustness_48 -- UnVerified
+time: 0.6794180870056152
+acas_xu_p6_net_1_1/local_robustness_49 -- Verified
+time: 0.6546671390533447
+acas_xu_p6_net_1_1/local_robustness_50 -- Verified
+time: 0.6700458526611328
+acas_xu_p6_net_1_1/local_robustness_51 -- UnVerified
+time: 0.673095703125
+acas_xu_p6_net_1_1/local_robustness_52 -- UnVerified
+time: 0.6825878620147705
+acas_xu_p6_net_1_1/local_robustness_53 -- UnVerified
+time: 0.6880285739898682
+acas_xu_p6_net_1_1/local_robustness_54 -- UnVerified
+time: 0.6708762645721436
+acas_xu_p6_net_1_1/local_robustness_55 -- UnVerified
+time: 0.6695637702941895
+acas_xu_p6_net_1_1/local_robustness_56 -- UnVerified
+time: 0.6687378883361816
+acas_xu_p6_net_1_1/local_robustness_57 -- UnVerified
+time: 0.6792395114898682
+acas_xu_p6_net_1_1/local_robustness_58 -- UnVerified
+time: 0.6886775493621826
+acas_xu_p6_net_1_1/local_robustness_59 -- UnVerified
+time: 0.6901357173919678
+acas_xu_p6_net_1_1/local_robustness_60 -- UnVerified
+time: 0.6857044696807861
+acas_xu_p6_net_1_1/local_robustness_61 -- Verified
+time: 0.6608998775482178
+acas_xu_p6_net_1_1/local_robustness_62 -- Verified
+time: 0.6663863658905029
+acas_xu_p6_net_1_1/local_robustness_63 -- UnVerified
+time: 0.6823561191558838
+acas_xu_p6_net_1_1/local_robustness_64 -- UnVerified
+time: 0.6867251396179199
+acas_xu_p6_net_1_1/local_robustness_65 -- UnVerified
+time: 0.6865670680999756
+acas_xu_p6_net_1_1/local_robustness_66 -- UnVerified
+time: 0.6677038669586182
+acas_xu_p6_net_1_1/local_robustness_67 -- UnVerified
+time: 0.6698610782623291
+acas_xu_p6_net_1_1/local_robustness_68 -- UnVerified
+time: 0.6716272830963135
+acas_xu_p6_net_1_1/local_robustness_69 -- UnVerified
+time: 0.6827654838562012
+acas_xu_p6_net_1_1/local_robustness_70 -- UnVerified
+time: 0.6868057250976562
+acas_xu_p6_net_1_1/local_robustness_71 -- UnVerified
+time: 0.6931700706481934
+acas_xu_p6_net_1_1/local_robustness_72 -- UnVerified
+time: 0.6876232624053955
+acas_xu_p6_net_1_1/local_robustness_73 -- Verified
+time: 0.6648836135864258
+acas_xu_p6_net_1_1/local_robustness_74 -- Verified
+time: 0.6658501625061035
+acas_xu_p6_net_1_1/local_robustness_75 -- UnVerified
+time: 0.6820433139801025
+acas_xu_p6_net_1_1/local_robustness_76 -- UnVerified
+time: 0.6901528835296631
+acas_xu_p6_net_1_1/local_robustness_77 -- UnVerified
+time: 0.6898295879364014
+acas_xu_p6_net_1_1/local_robustness_78 -- UnVerified
+time: 0.6735532283782959
+acas_xu_p6_net_1_1/local_robustness_79 -- UnVerified
+time: 0.672816276550293
+acas_xu_p6_net_1_1/local_robustness_80 -- UnVerified
+time: 0.6715216636657715
+acas_xu_p6_net_1_1/local_robustness_81 -- UnVerified
+time: 0.6856732368469238
+acas_xu_p6_net_1_1/local_robustness_82 -- UnVerified
+time: 0.6892871856689453
+acas_xu_p6_net_1_1/local_robustness_83 -- UnVerified
+time: 0.6931252479553223
+acas_xu_p6_net_1_1/local_robustness_84 -- UnVerified
+time: 0.6875247955322266
+acas_xu_p6_net_1_1/local_robustness_85 -- Verified
+time: 0.664954662322998
+acas_xu_p6_net_1_1/local_robustness_86 -- Verified
+time: 0.6650569438934326
+acas_xu_p6_net_1_1/local_robustness_87 -- UnVerified
+time: 0.6813857555389404
+acas_xu_p6_net_1_1/local_robustness_88 -- UnVerified
+time: 0.693720817565918
+acas_xu_p6_net_1_1/local_robustness_89 -- UnVerified
+time: 0.6940486431121826
+acas_xu_p6_net_1_1/local_robustness_90 -- UnVerified
+time: 0.6860172748565674
+acas_xu_p6_net_1_1/local_robustness_91 -- UnVerified
+time: 0.670487642288208
+acas_xu_p6_net_1_1/local_robustness_92 -- UnVerified
+time: 0.6790285110473633
+acas_xu_p6_net_1_1/local_robustness_93 -- UnVerified
+time: 0.6896920204162598
+acas_xu_p6_net_1_1/local_robustness_94 -- UnVerified
+time: 0.6880664825439453
+acas_xu_p6_net_1_1/local_robustness_95 -- UnVerified
+time: 0.6927547454833984
+acas_xu_p6_net_1_1/local_robustness_96 -- UnVerified
+time: 0.6930520534515381
+acas_xu_p6_net_1_1/local_robustness_97 -- Verified
+time: 0.6669595241546631
+acas_xu_p6_net_1_1/local_robustness_98 -- Verified
+time: 0.6724295616149902
+acas_xu_p6_net_1_1/local_robustness_99 -- UnVerified
+time: 0.6853935718536377
+acas_xu_p6_net_1_1/local_robustness_100 -- UnVerified
+time: 0.6968591213226318
+delta: 120
+number_sum: 18
+time_sum: 67.4630241394043
+time_average: 0.6746302413940429
+time_max: 0.6968591213226318

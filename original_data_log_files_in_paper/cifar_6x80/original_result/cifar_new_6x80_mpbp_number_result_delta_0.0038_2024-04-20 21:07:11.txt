@@ -1,0 +1,45 @@
+cifar_property_0 -- is__verify : 1
+cifar_property_0 -- time : 16.4978449344635
+cifar_property_1 -- is__verify : 0
+cifar_property_1 -- time : 18.74187207221985
+cifar_property_2 -- is__verify : 1
+cifar_property_2 -- time : 17.26290488243103
+cifar_property_3 -- is__verify : 1
+cifar_property_3 -- time : 17.07281231880188
+cifar_property_4 -- is__verify : 0
+cifar_property_4 -- time : 16.4582622051239
+cifar_property_5 -- is__verify : 1
+cifar_property_5 -- time : 15.976264476776123
+cifar_property_6 -- is__verify : 0
+cifar_property_6 -- time : 16.941404581069946
+cifar_property_7 -- is__verify : 0
+cifar_property_7 -- time : 16.268918991088867
+cifar_property_8 -- is__verify : 0
+cifar_property_8 -- time : 17.373209238052368
+cifar_property_9 -- is__verify : 0
+cifar_property_9 -- time : 16.619908332824707
+cifar_property_10 -- is__verify : 0
+cifar_property_10 -- time : 15.88126802444458
+cifar_property_11 -- is__verify : 1
+cifar_property_11 -- time : 16.154687643051147
+cifar_property_12 -- is__verify : 1
+cifar_property_12 -- time : 16.297719717025757
+cifar_property_13 -- is__verify : 1
+cifar_property_13 -- time : 15.771862268447876
+cifar_property_14 -- is__verify : 1
+cifar_property_14 -- time : 15.95716381072998
+cifar_property_15 -- is__verify : 0
+cifar_property_15 -- time : 17.151155710220337
+cifar_property_16 -- is__verify : 0
+cifar_property_16 -- time : 16.708515644073486
+cifar_property_17 -- is__verify : 1
+cifar_property_17 -- time : 16.01419162750244
+cifar_property_18 -- is__verify : 0
+cifar_property_18 -- time : 17.48392605781555
+cifar_property_19 -- is__verify : 0
+cifar_property_19 -- time : 18.400671005249023
+delta : 0.0038
+number_sum : 9
+time_sum : 335.03456354141235
+time_average : 16.751728177070618
+time_max : 18.74187207221985

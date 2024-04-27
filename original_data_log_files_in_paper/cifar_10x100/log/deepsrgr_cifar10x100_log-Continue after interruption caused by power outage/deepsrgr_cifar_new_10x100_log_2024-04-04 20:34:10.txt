@@ -1,0 +1,77 @@
+Abstract Mode Changed: 0
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-12-30
+Refreshed ReLu nodes: 74
+Run uncertain ReLu nodes: 287
+refresh_time_once: 36946.34057545662
+Abstract Mode Changed: 9
+Split: 0 Infeasible
+verification neuron: 6 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 54
+Run uncertain ReLu nodes: 313
+refresh_time_once: 37653.14631962776
+Abstract Mode Changed: 14
+Split: 0 Infeasible
+verification neuron: 5 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 19
+Run uncertain ReLu nodes: 302
+refresh_time_once: 37138.56479096413
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 260
+refresh_time_once: 36906.53025341034
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 219
+refresh_time_once: 36969.84777879715
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 185
+refresh_time_once: 36842.55063056946
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 191
+refresh_time_once: 37304.1403324604
+Split: 0 Area: 100.0
+Disturbance: 0.0027 Failed!
+cifar_property_13 -- UnVerified
+time: 259950.41168642044
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 52
+Run uncertain ReLu nodes: 548
+refresh_time_once: 39811.948813438416
+Abstract Mode Changed: 10
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 55
+Run uncertain ReLu nodes: 545
+refresh_time_once: 39838.7540140152
+Abstract Mode Changed: 12
+Split: 0 Infeasible
+verification neuron: 8 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 41
+Run uncertain ReLu nodes: 556
+refresh_time_once: 39814.63267540932
+Abstract Mode Changed: 8
+Refreshed ReLu nodes: 31
+Run uncertain ReLu nodes: 456
+refresh_time_once: 39136.07057547569
+Abstract Mode Changed: 6
+Refreshed ReLu nodes: 61
+Run uncertain ReLu nodes: 409
+refresh_time_once: 38395.34431171417
+Abstract Mode Changed: 15
+Split: 0 Infeasible
+verification neuron: 5 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 55
+Run uncertain ReLu nodes: 546
+refresh_time_once: 38772.02429819107
+Abstract Mode Changed: 10
+Split: 0 Infeasible
+verification neuron: 7 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0

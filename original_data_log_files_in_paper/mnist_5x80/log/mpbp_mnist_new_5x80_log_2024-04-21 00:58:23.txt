@@ -1,0 +1,205 @@
+nist_property_0 -- UnVerified
+time: 6.825206518173218
+nist_property_1 -- UnVerified
+time: 5.434932231903076
+nist_property_2 -- UnVerified
+time: 7.554617643356323
+nist_property_3 -- UnVerified
+time: 5.258731842041016
+nist_property_4 -- UnVerified
+time: 7.031468629837036
+nist_property_5 -- UnVerified
+time: 7.528336524963379
+nist_property_6 -- UnVerified
+time: 6.846249103546143
+nist_property_7 -- UnVerified
+time: 6.986626863479614
+nist_property_8 -- UnVerified
+time: 6.854082822799683
+nist_property_9 -- UnVerified
+time: 6.076728820800781
+nist_property_10 -- Verified
+time: 5.012902021408081
+nist_property_11 -- UnVerified
+time: 6.452311754226685
+nist_property_12 -- UnVerified
+time: 6.5641188621521
+nist_property_13 -- Verified
+time: 5.173264265060425
+nist_property_14 -- UnVerified
+time: 7.393028259277344
+nist_property_15 -- UnVerified
+time: 6.911727428436279
+nist_property_16 -- UnVerified
+time: 6.967873573303223
+nist_property_17 -- Verified
+time: 5.280066728591919
+nist_property_18 -- UnVerified
+time: 7.492653846740723
+nist_property_19 -- UnVerified
+time: 6.257044792175293
+nist_property_20 -- UnVerified
+time: 6.868958473205566
+nist_property_21 -- UnVerified
+time: 6.717355012893677
+nist_property_22 -- UnVerified
+time: 6.424113750457764
+nist_property_23 -- UnVerified
+time: 5.575047254562378
+nist_property_24 -- UnVerified
+time: 6.919059753417969
+nist_property_25 -- Verified
+time: 4.475700616836548
+nist_property_26 -- UnVerified
+time: 5.70212197303772
+nist_property_27 -- Verified
+time: 4.452251434326172
+nist_property_28 -- Verified
+time: 4.5836546421051025
+nist_property_29 -- UnVerified
+time: 6.748738050460815
+nist_property_30 -- Verified
+time: 4.282119989395142
+nist_property_31 -- UnVerified
+time: 7.120949029922485
+nist_property_32 -- Verified
+time: 4.228130578994751
+nist_property_33 -- UnVerified
+time: 6.313886404037476
+nist_property_34 -- UnVerified
+time: 5.233351469039917
+nist_property_35 -- Verified
+time: 4.659410715103149
+nist_property_36 -- UnVerified
+time: 6.07670783996582
+nist_property_37 -- UnVerified
+time: 6.830469369888306
+nist_property_38 -- UnVerified
+time: 6.850133895874023
+nist_property_39 -- UnVerified
+time: 6.76421046257019
+nist_property_40 -- UnVerified
+time: 7.270920753479004
+nist_property_41 -- UnVerified
+time: 6.568924188613892
+nist_property_42 -- UnVerified
+time: 5.775274038314819
+nist_property_43 -- UnVerified
+time: 6.5656702518463135
+nist_property_44 -- UnVerified
+time: 5.922631502151489
+nist_property_45 -- UnVerified
+time: 6.411280155181885
+nist_property_46 -- UnVerified
+time: 6.418299436569214
+nist_property_47 -- Verified
+time: 4.633834600448608
+nist_property_48 -- Verified
+time: 4.505961894989014
+nist_property_49 -- UnVerified
+time: 6.140103101730347
+nist_property_50 -- UnVerified
+time: 6.678085088729858
+nist_property_51 -- Verified
+time: 4.563022136688232
+nist_property_52 -- UnVerified
+time: 5.760747194290161
+nist_property_53 -- UnVerified
+time: 5.980052471160889
+nist_property_54 -- Verified
+time: 4.390026330947876
+nist_property_55 -- UnVerified
+time: 6.273948907852173
+nist_property_56 -- UnVerified
+time: 5.2506020069122314
+nist_property_57 -- UnVerified
+time: 7.172165393829346
+nist_property_58 -- UnVerified
+time: 5.229474067687988
+nist_property_59 -- UnVerified
+time: 6.901850461959839
+nist_property_60 -- Verified
+time: 4.451677322387695
+nist_property_61 -- UnVerified
+time: 6.309946298599243
+nist_property_62 -- UnVerified
+time: 7.2050392627716064
+nist_property_63 -- UnVerified
+time: 5.5435614585876465
+nist_property_64 -- UnVerified
+time: 4.998518466949463
+nist_property_65 -- UnVerified
+time: 7.025266170501709
+nist_property_66 -- UnVerified
+time: 6.658823251724243
+nist_property_67 -- UnVerified
+time: 6.33018159866333
+nist_property_68 -- Verified
+time: 4.208210468292236
+nist_property_69 -- Verified
+time: 4.250587463378906
+nist_property_70 -- Verified
+time: 4.724285125732422
+nist_property_71 -- Verified
+time: 4.177506685256958
+nist_property_72 -- UnVerified
+time: 4.915374994277954
+nist_property_73 -- UnVerified
+time: 6.050859451293945
+nist_property_74 -- UnVerified
+time: 6.883598566055298
+nist_property_75 -- Verified
+time: 5.180708885192871
+nist_property_76 -- Verified
+time: 5.058933973312378
+nist_property_77 -- UnVerified
+time: 6.076662540435791
+nist_property_78 -- UnVerified
+time: 6.872014284133911
+nist_property_79 -- UnVerified
+time: 5.942314147949219
+nist_property_80 -- UnVerified
+time: 6.350250244140625
+nist_property_81 -- UnVerified
+time: 6.185035705566406
+nist_property_82 -- Verified
+time: 4.379186391830444
+nist_property_83 -- UnVerified
+time: 6.0534443855285645
+nist_property_84 -- UnVerified
+time: 6.693524122238159
+nist_property_85 -- UnVerified
+time: 5.4479241371154785
+nist_property_86 -- UnVerified
+time: 6.413174152374268
+nist_property_87 -- UnVerified
+time: 5.697764158248901
+nist_property_88 -- UnVerified
+time: 5.563490390777588
+nist_property_89 -- UnVerified
+time: 6.930970191955566
+nist_property_90 -- UnVerified
+time: 5.611667633056641
+nist_property_91 -- UnVerified
+time: 5.114557504653931
+nist_property_92 -- UnVerified
+time: 7.045116186141968
+nist_property_93 -- UnVerified
+time: 5.245020627975464
+nist_property_94 -- UnVerified
+time: 6.708191871643066
+nist_property_95 -- UnVerified
+time: 5.6222686767578125
+nist_property_96 -- UnVerified
+time: 6.988234043121338
+nist_property_97 -- UnVerified
+time: 4.989061117172241
+nist_property_98 -- UnVerified
+time: 6.2490410804748535
+nist_property_99 -- UnVerified
+time: 6.260832071304321
+delta: 0.019
+number_sum: 21
+time_sum: 597.554042339325
+time_average: 5.97554042339325
+time_max: 7.554617643356323

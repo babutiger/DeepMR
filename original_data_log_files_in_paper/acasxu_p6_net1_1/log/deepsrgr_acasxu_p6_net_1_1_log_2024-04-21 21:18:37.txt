@@ -1,0 +1,3401 @@
+Property Verified
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_1 -- Verified
+time: 0.177077054977417
+Property Verified
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_2 -- Verified
+time: 0.17451858520507812
+Abstract Mode Changed: 0
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-02-01
+Refreshed ReLu nodes: 17
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 7
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 75
+Abstract Mode Changed: 7
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 74
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 72
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_3 -- Verified
+time: 21.350985288619995
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 90
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 90
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 90
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 90
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 56
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_4 -- Verified
+time: 56.847509145736694
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 80
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 80
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 80
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 80
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 19
+Run uncertain ReLu nodes: 53
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_5 -- Verified
+time: 54.056957483291626
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 48
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 46
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_6 -- Verified
+time: 28.14241909980774
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 44
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 44
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 43
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_7 -- Verified
+time: 32.546703577041626
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 41
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 45
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 13
+Run uncertain ReLu nodes: 43
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 52
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_8 -- Verified
+time: 35.48604726791382
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 48
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 42
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 33
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 43
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 16
+Run uncertain ReLu nodes: 37
+Split: 0 Area: 3.667867258335776
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_9 -- UnVerified
+time: 33.46178650856018
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 52
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 36
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 36
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 48
+Split: 0 Area: 61.82225795744919
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_10 -- UnVerified
+time: 38.097392320632935
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 69
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 34
+Run uncertain ReLu nodes: 52
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 70
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 70
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 44
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 50
+Abstract Mode Changed: 6
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 69
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 38
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 35
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 49
+Split: 0 Area: 96.7235158029996
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_11 -- UnVerified
+time: 60.44590997695923
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 70
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 71
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 13
+Run uncertain ReLu nodes: 54
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 72
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 45
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 44
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 15
+Run uncertain ReLu nodes: 44
+Split: 0 Area: 6.164764320165822
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_12 -- UnVerified
+time: 47.597968101501465
+Property Verified
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_13 -- Verified
+time: 0.1758582592010498
+Property Verified
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_14 -- Verified
+time: 0.19152259826660156
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 19
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 6
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 75
+Abstract Mode Changed: 7
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 74
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 74
+Abstract Mode Changed: 6
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_15 -- Verified
+time: 21.653220176696777
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 87
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 68
+Abstract Mode Changed: 6
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 87
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 69
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 87
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 86
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_16 -- Verified
+time: 61.15738320350647
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 80
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 80
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 80
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 23
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 80
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 56
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_17 -- Verified
+time: 59.26294255256653
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 51
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 50
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 50
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_18 -- Verified
+time: 32.37282681465149
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 18
+Run uncertain ReLu nodes: 48
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 43
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 42
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 44
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 41
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_19 -- Verified
+time: 41.090001583099365
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 15
+Run uncertain ReLu nodes: 51
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 56
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 43
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 40
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 50
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_20 -- Verified
+time: 39.74460697174072
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 56
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 13
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 49
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 39
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 49
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 14
+Run uncertain ReLu nodes: 42
+Split: 0 Area: 34.19593358397445
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_21 -- UnVerified
+time: 35.426008224487305
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 68
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 68
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 68
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 53
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 42
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 36
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 48
+Split: 0 Area: 93.75853724485366
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_22 -- UnVerified
+time: 38.085407972335815
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 70
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 15
+Run uncertain ReLu nodes: 54
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 44
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 45
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 17
+Run uncertain ReLu nodes: 48
+Split: 0 Area: 9.879002256846514
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_23 -- UnVerified
+time: 48.39317584037781
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 71
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 69
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 69
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 69
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 56
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 42
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 47
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 14
+Run uncertain ReLu nodes: 46
+Split: 0 Area: 15.868150210998497
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_24 -- UnVerified
+time: 47.23295831680298
+Property Verified
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_25 -- Verified
+time: 0.17528438568115234
+Property Verified
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_26 -- Verified
+time: 0.1786503791809082
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 26
+Run uncertain ReLu nodes: 69
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 74
+Abstract Mode Changed: 6
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 74
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_27 -- Verified
+time: 21.29293966293335
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 86
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 70
+Abstract Mode Changed: 6
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 86
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 70
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 86
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 68
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 85
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 69
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_28 -- Verified
+time: 61.18862533569336
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 79
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 79
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 79
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 79
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_29 -- Verified
+time: 60.37486815452576
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 25
+Run uncertain ReLu nodes: 51
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 48
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 50
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 48
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 47
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_30 -- Verified
+time: 40.07654857635498
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 49
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 42
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 45
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 44
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 42
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 44
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_31 -- Verified
+time: 43.63392376899719
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 56
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 54
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 51
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 53
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 44
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 39
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 49
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 17
+Run uncertain ReLu nodes: 41
+Split: 0 Area: 5.785909933094454
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_32 -- UnVerified
+time: 33.993449211120605
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 52
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 40
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 48
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 53
+Split: 0 Area: 89.3600514613525
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_33 -- UnVerified
+time: 37.39217257499695
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 72
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 33
+Run uncertain ReLu nodes: 56
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 72
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 71
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 54
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 46
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 72
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 54
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 40
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 39
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 50
+Split: 0 Area: 100.0
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_34 -- UnVerified
+time: 61.92551064491272
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 69
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 42
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 45
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 13
+Run uncertain ReLu nodes: 53
+Split: 0 Area: 29.863657401590316
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_35 -- UnVerified
+time: 48.28705859184265
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 74
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 74
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 74
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 52
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 40
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 44
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 50
+Split: 0 Area: 32.99841404716667
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_36 -- UnVerified
+time: 47.661235094070435
+Property Verified
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_37 -- Verified
+time: 0.17589282989501953
+Property Verified
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_38 -- Verified
+time: 0.18032217025756836
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 15
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 6
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 74
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_39 -- Verified
+time: 16.56851863861084
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 13
+Run uncertain ReLu nodes: 96
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 69
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 13
+Run uncertain ReLu nodes: 95
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 69
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 17
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 6
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 13
+Run uncertain ReLu nodes: 96
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 68
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 13
+Run uncertain ReLu nodes: 95
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 68
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 13
+Run uncertain ReLu nodes: 50
+Split: 0 Area: 4.314672537238478
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_40 -- UnVerified
+time: 69.93698382377625
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 86
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 86
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 20
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 86
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 86
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 52
+Split: 0 Area: 55.808780029692706
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_41 -- UnVerified
+time: 69.70958352088928
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 49
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 54
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 52
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 52
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 50
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_42 -- Verified
+time: 46.144667625427246
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 48
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 41
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 47
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 15
+Run uncertain ReLu nodes: 46
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 43
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 48
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 46
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 14
+Run uncertain ReLu nodes: 43
+Split: 0 Area: 0.33786866519755976
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_43 -- UnVerified
+time: 51.10128688812256
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 54
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 47
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 39
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 52
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 47
+Split: 0 Area: 56.08840209501474
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_44 -- UnVerified
+time: 34.93802523612976
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 69
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 32
+Run uncertain ReLu nodes: 54
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 70
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 69
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 50
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 40
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 51
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 54
+Split: 0 Area: 100.0
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_45 -- UnVerified
+time: 42.61864757537842
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 72
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 72
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 18
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 72
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 53
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 43
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 48
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 13
+Run uncertain ReLu nodes: 55
+Split: 0 Area: 46.36120042869079
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_46 -- UnVerified
+time: 47.90666174888611
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 43
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 48
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 59
+Split: 0 Area: 48.93174546893351
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_47 -- UnVerified
+time: 49.12100028991699
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 71
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 71
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 71
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 56
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 43
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 47
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 51
+Split: 0 Area: 42.48953225656779
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_48 -- UnVerified
+time: 48.507482290267944
+Property Verified
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_49 -- Verified
+time: 0.17491865158081055
+Property Verified
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_50 -- Verified
+time: 0.1805858612060547
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 20
+Run uncertain ReLu nodes: 72
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 74
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 74
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_51 -- Verified
+time: 16.40797519683838
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 15
+Run uncertain ReLu nodes: 94
+Abstract Mode Changed: 5
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 69
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 15
+Run uncertain ReLu nodes: 94
+Abstract Mode Changed: 5
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 69
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 14
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 7
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 15
+Run uncertain ReLu nodes: 94
+Abstract Mode Changed: 5
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 68
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 16
+Run uncertain ReLu nodes: 55
+Split: 0 Area: 5.824113788617383
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_52 -- UnVerified
+time: 50.68119502067566
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 84
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 84
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 14
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 84
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 55
+Split: 0 Area: 54.56231123327927
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_53 -- UnVerified
+time: 50.502543687820435
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 79
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 79
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 79
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 52
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 56
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 54
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 79
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 52
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 54
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 51
+Split: 0 Area: 91.02462404790003
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_54 -- UnVerified
+time: 62.23075246810913
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 14
+Run uncertain ReLu nodes: 51
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 48
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 42
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 46
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 50
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 44
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 45
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 47
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 44
+Split: 0 Area: 37.148160492418356
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_55 -- UnVerified
+time: 56.57297205924988
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 50
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 40
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 54
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 54
+Split: 0 Area: 99.76690821671284
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_56 -- UnVerified
+time: 36.87758803367615
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 21
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 39
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 37
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 58
+Split: 0 Area: 100.0
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_57 -- UnVerified
+time: 43.815067529678345
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 72
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 71
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 14
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 71
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 42
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 48
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 59
+Split: 0 Area: 66.02365167435056
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_58 -- UnVerified
+time: 48.48383116722107
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 74
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 72
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 42
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 45
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 58
+Split: 0 Area: 60.03596167102686
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_59 -- UnVerified
+time: 49.124839782714844
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 75
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 75
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 75
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 42
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 47
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 56
+Split: 0 Area: 50.46440475171393
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_60 -- UnVerified
+time: 49.543001651763916
+Property Verified
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_61 -- Verified
+time: 0.1747288703918457
+Property Verified
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_62 -- Verified
+time: 0.1773996353149414
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 33
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_63 -- Verified
+time: 15.979219913482666
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 88
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 70
+Abstract Mode Changed: 6
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 89
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 69
+Abstract Mode Changed: 5
+Refreshed ReLu nodes: 14
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 8
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 89
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 14
+Run uncertain ReLu nodes: 60
+Split: 0 Area: 11.954111655341661
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_64 -- UnVerified
+time: 50.096041202545166
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 92
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 23
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 91
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 91
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 59
+Split: 0 Area: 73.99064577424198
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_65 -- UnVerified
+time: 53.98779606819153
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 79
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 80
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 24
+Run uncertain ReLu nodes: 51
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 80
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 53
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 54
+Split: 0 Area: 38.91603140308546
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_66 -- UnVerified
+time: 47.406221866607666
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 68
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 53
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 47
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 49
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 48
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 50
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 51
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 53
+Split: 0 Area: 99.37287164964415
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_67 -- UnVerified
+time: 59.983736753463745
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 23
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 51
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 41
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 59
+Split: 0 Area: 100.0
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_68 -- UnVerified
+time: 43.279584884643555
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 72
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 17
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 72
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 40
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 35
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 57
+Split: 0 Area: 100.0
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_69 -- UnVerified
+time: 48.42061424255371
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 72
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 72
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 14
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 40
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 45
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 63
+Split: 0 Area: 78.40995768631736
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_70 -- UnVerified
+time: 48.9534056186676
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 76
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 77
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 76
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 43
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 44
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 56
+Split: 0 Area: 71.86214966711681
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_71 -- UnVerified
+time: 49.72372794151306
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 79
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 79
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 80
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 54
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 39
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 44
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 58
+Split: 0 Area: 57.89620538859026
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_72 -- UnVerified
+time: 49.230130195617676
+Property Verified
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_73 -- Verified
+time: 0.16971492767333984
+Property Verified
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_74 -- Verified
+time: 0.17254281044006348
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 77
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 77
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_75 -- Verified
+time: 11.485387563705444
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 87
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 71
+Abstract Mode Changed: 6
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 87
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 71
+Abstract Mode Changed: 5
+Refreshed ReLu nodes: 15
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 87
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 61
+Split: 0 Area: 20.455071017941663
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_76 -- UnVerified
+time: 50.12168550491333
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 97
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 68
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 96
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 68
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 96
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 67
+Split: 0 Area: 82.55564586471746
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_77 -- UnVerified
+time: 55.67828941345215
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 17
+Run uncertain ReLu nodes: 89
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 56
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 17
+Run uncertain ReLu nodes: 88
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 13
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 17
+Run uncertain ReLu nodes: 88
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 53
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 54
+Split: 0 Area: 99.78523793527373
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_78 -- UnVerified
+time: 48.28209686279297
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 6
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 53
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 45
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 41
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 23
+Run uncertain ReLu nodes: 44
+Split: 0 Area: 0.1709793675718433
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_79 -- UnVerified
+time: 40.79332637786865
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 15
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 51
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 41
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 61
+Split: 0 Area: 100.0
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_80 -- UnVerified
+time: 43.03398895263672
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 71
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 71
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 13
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 71
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 54
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 42
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 44
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 62
+Split: 0 Area: 89.7026453787983
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_81 -- UnVerified
+time: 48.54050612449646
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 76
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 76
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 76
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 54
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 40
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 43
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 62
+Split: 0 Area: 87.0211172737666
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_82 -- UnVerified
+time: 50.57426166534424
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 82
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 81
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 81
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 56
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 39
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 43
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 59
+Split: 0 Area: 80.80795927155262
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_83 -- UnVerified
+time: 51.362945556640625
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 76
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 76
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 1
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 76
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 54
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 40
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 42
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 60
+Split: 0 Area: 69.37427974128079
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_84 -- UnVerified
+time: 49.39140486717224
+Property Verified
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_85 -- Verified
+time: 0.17877984046936035
+Property Verified
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_86 -- Verified
+time: 0.18650269508361816
+Abstract Mode Changed: 0
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 78
+Abstract Mode Changed: 6
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 76
+Abstract Mode Changed: 7
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_87 -- Verified
+time: 11.635390520095825
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 14
+Run uncertain ReLu nodes: 94
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 70
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 14
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 6
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 14
+Run uncertain ReLu nodes: 94
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 70
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 14
+Run uncertain ReLu nodes: 94
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 69
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 69
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 62
+Split: 0 Area: 27.642709503640102
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_88 -- UnVerified
+time: 51.04261660575867
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 98
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 97
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 68
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 68
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 98
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 68
+Split: 0 Area: 84.47892625974806
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_89 -- UnVerified
+time: 56.64191293716431
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 16
+Run uncertain ReLu nodes: 97
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 16
+Run uncertain ReLu nodes: 97
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 10
+Run uncertain ReLu nodes: 64
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 16
+Run uncertain ReLu nodes: 96
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 56
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 59
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 66
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 64
+Split: 0 Area: 100.0
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_90 -- UnVerified
+time: 51.08272385597229
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 4
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 24
+Run uncertain ReLu nodes: 53
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 68
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 49
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 43
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 13
+Run uncertain ReLu nodes: 53
+Split: 0 Area: 38.74972065526108
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_91 -- UnVerified
+time: 46.087655544281006
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 71
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 71
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 58
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 71
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 51
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 40
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 53
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 61
+Split: 0 Area: 100.0
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_92 -- UnVerified
+time: 49.219011545181274
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 74
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 75
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 75
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 54
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 40
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 42
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 61
+Split: 0 Area: 99.26976844499067
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_93 -- UnVerified
+time: 48.212143659591675
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 78
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 63
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 77
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 77
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 56
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 43
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 41
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 63
+Split: 0 Area: 94.67260556274577
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_94 -- UnVerified
+time: 50.04047870635986
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 80
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 80
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 61
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 80
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 55
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 39
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 40
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 6
+Run uncertain ReLu nodes: 60
+Split: 0 Area: 87.4324294732702
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_95 -- UnVerified
+time: 50.28105974197388
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 80
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 4
+Run uncertain ReLu nodes: 60
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 80
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 57
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 8
+Run uncertain ReLu nodes: 62
+Abstract Mode Changed: 3
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 9
+Run uncertain ReLu nodes: 80
+Abstract Mode Changed: 4
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 53
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 0
+Run uncertain ReLu nodes: 39
+Abstract Mode Changed: 1
+Refreshed ReLu nodes: 2
+Run uncertain ReLu nodes: 43
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 7
+Run uncertain ReLu nodes: 59
+Split: 0 Area: 77.30154811862818
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_96 -- UnVerified
+time: 49.281410694122314
+Property Verified
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_97 -- Verified
+time: 0.1763143539428711
+Property Verified
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_98 -- Verified
+time: 0.17986416816711426
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 14
+Run uncertain ReLu nodes: 76
+Abstract Mode Changed: 5
+Split: 0 Infeasible
+verification neuron: 3 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 78
+Abstract Mode Changed: 6
+Split: 0 Infeasible
+verification neuron: 2 Unsafe Overapproximate(Box)%: 0
+Overall Unsafe Overapproximate(Area)% 0
+Overall Unsafe Overapproximate(Smart Area)% 0.0
+Overall Unsafe Overapproximate(Box)%: 0.0
+Overall Unsafe Overapproximate(Deeppoly)%: 100.0
+Disturbance: 120 Success!
+acas_xu_p6_net_1_1/local_robustness_99 -- Verified
+time: 10.890646696090698
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 94
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 74
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 11
+Run uncertain ReLu nodes: 65
+Abstract Mode Changed: 7
+Split: 0 Infeasible
+verification neuron: 0 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 94
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 74
+Abstract Mode Changed: 2
+Split: 0 Infeasible
+verification neuron: 1 Unsafe Overapproximate(Box)%: 0
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 12
+Run uncertain ReLu nodes: 94
+Abstract Mode Changed: 3
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 67
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 1
+Run uncertain ReLu nodes: 73
+Abstract Mode Changed: 0
+Refreshed ReLu nodes: 3
+Run uncertain ReLu nodes: 70
+Abstract Mode Changed: 2
+Refreshed ReLu nodes: 5
+Run uncertain ReLu nodes: 65
+Split: 0 Area: 32.474508809640376
+Disturbance: 120 Failed!
+acas_xu_p6_net_1_1/local_robustness_100 -- UnVerified
+time: 52.88428020477295
+delta: 120
+number_sum: 42
+time_sum: 3675.8953466415405
+time_average: 36.758953466415406
+time_max: 69.93698382377625
