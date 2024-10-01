@@ -3,7 +3,8 @@
 DeepMR: Multi-fold Acceleration Refinement for Deep Neural Network Verification.
 
 - Introduces DeepMR, a novel method for accelerating refinement in neural network verification.
-- Linearizes disjunctive inequality constraints and employs integer programming to eliminate spurious regions corresponding to adversarial labels.
+- Linearizes disjunctive inequality constraints and employs integer programming to 
+simultaneously eliminate all spurious regions corresponding to adversarial labels.
 - Targets uncertain ReLU neurons in intermediate layers to reduce the scale of optimization, improving efficiency.
 - Validated on diverse datasets, including MNIST, CIFAR10, and ACAS Xu, demonstrating superior efficiency compared to other iterative refinement tools.
 - Demonstrates up to a 97-fold speedup in verification on datasets like CIFAR10.
