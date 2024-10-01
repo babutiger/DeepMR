@@ -7,12 +7,12 @@ DeepMR: Multi-fold Acceleration Refinement for Deep Neural Network Verification.
 - Targets uncertain ReLU neurons in intermediate layers to reduce the scale of optimization, improving efficiency.
 - Validated on diverse datasets, including MNIST, CIFAR10, and ACAS Xu, demonstrating superior efficiency compared to other iterative refinement tools.
 - Demonstrates up to a 97-fold speedup in verification on datasets like CIFAR10.
-  
-  
-  ![Workflow of DeepMR. The refinement module is our core work, with constraints building and MILP solving being the main differences from DeepSRGR.](./img/framework.png)
 
-  
-  
+<p align="center">
+  <img src="./img/framework.png" alt="图片描述" width="80%" />
+  <br />
+  Workflow of DeepMR. The refinement module is our core work, with constraints building and MILP solving being the main differences from DeepSRGR.
+</p>
 
 ### Folders
 
@@ -31,6 +31,8 @@ DeepMR: Multi-fold Acceleration Refinement for Deep Neural Network Verification.
 - **utils**: Contains some utility code functions for saving experimental results.
 
 - **verify**: Used for experiments of the verification algorithm, including aCROWN, DeepPoly, DeepSRGR, MPBP, and DeepMR.
+
+- **img**: Stores framework images.
 
 ### Usage
 
