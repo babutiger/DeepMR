@@ -9,8 +9,8 @@ DeepMR: Multi-fold Acceleration Refinement for Deep Neural Network Verification.
 - Demonstrates up to a 97-fold speedup in verification on datasets like CIFAR10.
   
   
-  
-  <img title="Workflow of DeepMR." src="./img/framework.png" alt="The refinement module is our core work, with constraints building and MILP solving being the main differences from DeepSRGR." data-align="left">
+  ![Workflow of DeepMR. The refinement module is our core work, with constraints building and MILP solving being the main differences from DeepSRGR.](./img/framework.png)
+
   
   
 
