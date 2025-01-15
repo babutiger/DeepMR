@@ -1,6 +1,6 @@
 ## DeepMR
 
-DeepMR: Multi-fold Acceleration of Spurious Region Guided Refinement for Deep Neural Network Verification.
+### Multi-fold Acceleration of Spurious Region Guided Refinement for Deep Neural Network Verification
 
 - Introduces DeepMR, a novel method for accelerating refinement in neural network verification.
 - Linearizes disjunctive inequality constraints and employs integer programming to 
