@@ -307,7 +307,6 @@ class network(object):
                     # constraints.append(variables[-1][i] >= 0 - M * (1 - binary_vars[i]))
                     constraints.append(variables[-1][i] >= 0 - M * (1 - binary_vars[verify_list.index(i)]))
 
-
                 #  Construct disjunctive relations
                 constraints.append(sum(binary_vars) >= 1)
 
@@ -316,6 +315,7 @@ class network(object):
                 prob.solve(solver=SOLVER)
                 if prob.status != cp.OPTIMAL:
                     print("Infeasible")
+                    # print("Split:", splits_num, "Infeasible")
                     break
 
                 refresh_start_time = time.time()
@@ -409,6 +409,7 @@ class network(object):
         else:
             if MODE==self.MODE_ROBUSTNESS:
                 return False
+
 
 
 
@@ -824,7 +825,7 @@ class network(object):
         return ans
 
     def find_robustness_number_mrlp(self, PROPERTY, t, TRIM, WORKERS=28, SOLVER=cp.GUROBI):
-        if self.verify_lp_split(PROPERTY=PROPERTY, DELTA=t, MAX_ITER=5, SPLIT_NUM=0, WORKERS=WORKERS,
+        if self.verify_lp_split(PROPERTY=PROPERTY, DELTA=t, MAX_ITER=50, SPLIT_NUM=0, WORKERS=WORKERS,
                                 TRIM=TRIM, SOLVER=SOLVER, MODE=1):
             print("Disturbance:", t, "Success!")
             num = 1
@@ -894,11 +895,11 @@ def test_robustness_number_mrlp(d):
 
     net = network()
     net.load_nnet("../../models/nnet/ACASXU_run2a_1_1_batch_2000.nnet")
-    property_list = [f"../../acas_properties/acas_xu_p5_net_1_1/local_robustness_{i}.txt" for i in range(1, amount+1)]
+    property_list = [f"../../acas_properties/acas_xu_p6_net_1_1/local_robustness_{i}.txt" for i in range(1, amount+1)]
 
     if not os.path.isdir('../../result/original_result'):
         os.makedirs('../../result/original_result')
-    file = open(f"../../result/original_result/acas_xu_p5_net_1_1_deepmr_3_number_result_delta_{d}_{style_time}.txt", mode="w+", encoding="utf-8")
+    file = open(f"../../result/original_result/acas_xu_p6_net_1_1_deepmr_3_maxiter50_number_result_delta_{d}_{style_time}.txt", mode="w+", encoding="utf-8")
 
 
     num_ans = 0
@@ -941,7 +942,6 @@ def test_robustness_number_mrlp(d):
 
 
 if __name__ == "__main__":
-
-    test_robustness_number_mrlp(2)
+    test_robustness_number_mrlp(120)
 
 

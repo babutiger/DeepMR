@@ -1,0 +1,9 @@
+acas_xu_p6_net_1_1/local_robustness_28 -- is__verify : 1
+acas_xu_p6_net_1_1/local_robustness_28 -- time : 180.27379989624023
+acas_xu_p6_net_1_1/local_robustness_29 -- is__verify : 1
+acas_xu_p6_net_1_1/local_robustness_29 -- time : 187.11364221572876
+delta : 120
+number_sum : 2
+time_sum : 367.387442111969
+time_average : 183.6937210559845
+time_max : 187.11364221572876
