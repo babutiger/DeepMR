@@ -46,7 +46,6 @@ sys.stdout = Logger("../../result/log/" + script_name_without_extension + "_log_
 
 # sys.stderr = Logger("../log/a_err_" + str(style_time) + ".txt", sys.stderr)  # redirect std err, if necessary
 
-
 def lpsolve(vars, cons, obj, solver=cp.GUROBI):
     prob = cp.Problem(obj, cons)
     prob.solve(solver=solver)
@@ -170,7 +169,6 @@ class network(object):
     def clear(self):
         for i in range(len(self.layers)):
             self.layers[i].clear()
-
 
 
     def verify_lp_split(self, PROPERTY, DELTA, MAX_ITER=5, SPLIT_NUM=0, WORKERS=28, TRIM=False, SOLVER=cp.GUROBI,
@@ -308,7 +306,7 @@ class network(object):
                     constraints.append(variables[-1][i] >= 0 - M * (1 - binary_vars[verify_list.index(i)]))
 
 
-                #  Construct disjunctive relations
+                # Construct disjunctive relations
                 constraints.append(sum(binary_vars) >= 1)
 
                 # Check the feasibility
@@ -316,10 +314,34 @@ class network(object):
                 prob.solve(solver=SOLVER)
                 if prob.status != cp.OPTIMAL:
                     print("Infeasible")
+                    # print("Split:", splits_num, "Infeasible")
                     break
 
                 refresh_start_time = time.time()
 
+                #Refresh the input layer bounds
+                mppool=mp.Pool(WORKERS)
+                tasklist=[]
+                input_neurons=self.layers[0].neurons
+                for k in range(self.inputSize):
+                    obj=cp.Minimize(variables[0][k])
+                    #Below using mp Pool
+                    tasklist.append((variables,constraints,obj,SOLVER))
+                    obj=cp.Maximize(variables[0][k])
+                    #Below using mp Pool
+                    tasklist.append((variables,constraints,obj,SOLVER))
+                #Below using mp Pool
+                resultlist=mppool.starmap(lpsolve,tasklist)
+                mppool.terminate()
+                for k in range(self.inputSize):
+                    if resultlist[k*2]>=input_neurons[k].concrete_lower:
+                        input_neurons[k].concrete_lower=resultlist[k*2]
+                        input_neurons[k].concrete_algebra_lower=np.array([resultlist[k*2]])
+                        input_neurons[k].algebra_lower=np.array([resultlist[k*2]])
+                    if resultlist[k*2+1]<=input_neurons[k].concrete_upper:
+                        input_neurons[k].concrete_upper=resultlist[k*2+1]
+                        input_neurons[k].concrete_algebra_upper=np.array([resultlist[k*2+1]])
+                        input_neurons[k].algebra_upper=np.array([resultlist[k*2+1]])
                 # Refresh the uncertain ReLu's lowerbound
                 mppool = mp.Pool(WORKERS)
                 count_uncertain = 0
@@ -589,11 +611,11 @@ class network(object):
             for i in range(self.layerSizes[0]):
                 line = f.readline()
                 linedata = [float(line.strip()) - delta, float(line.strip()) + delta]
-                # if TRIM:
-                #     if linedata[0] < 0:
-                #         linedata[0] = 0
-                #     if linedata[1] > 1:
-                #         linedata[1] = 1
+                if TRIM:
+                    if linedata[0] < 0:
+                        linedata[0] = 0
+                    if linedata[1] > 1:
+                        linedata[1] = 1
                 self.layers[0].neurons[i].concrete_lower = linedata[0]
                 self.layers[0].neurons[i].concrete_upper = linedata[1]
                 self.property_region *= linedata[1] - linedata[0]
@@ -834,16 +856,16 @@ class network(object):
         return num
 
 
-def mnist_robustness_radius_deeppoly():
+def mnist_robustness_radius():
     net = network()
-    net.load_nnet("../../models/mnist_new_20x50/mnist_net_new_20x50.nnet")
-    property_list = ["../../mnist_properties/mnist_properties_20x50/mnist_property_" + str(i) + ".txt" for i in
+    net.load_nnet("../../models/mnist_new_10x80/mnist_net_new_10x80.nnet")
+    property_list = ["../../mnist_properties/mnist_properties_10x80/mnist_property_" + str(i) + ".txt" for i in
                      range(100)]
 
     if not os.path.isdir('../../result/original_result'):
         os.makedirs('../../result/original_result')
     style_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
-    file = open("../../result/original_result/mnist_new_20x50_deeppoly_radius_result_" + str(style_time) + ".txt",
+    file = open("../../result/original_result/mnist_new_10x80_deeppoly_radius_result_" + str(style_time) + ".txt",
                 mode="w+", encoding="utf-8")
 
     for property_i in property_list:
@@ -861,14 +883,14 @@ def mnist_robustness_radius_deeppoly():
 
 def mnist_robustness_radius_lp():
     net = network()
-    net.load_nnet("../../models/mnist_new_20x50/mnist_net_new_20x50.nnet")
-    property_list = ["../../mnist_properties/mnist_properties_20x50/mnist_property_" + str(i) + ".txt" for i in
+    net.load_nnet("../../models/mnist_new_10x80/mnist_net_new_10x80.nnet")
+    property_list = ["../../mnist_properties/mnist_properties_10x80/mnist_property_" + str(i) + ".txt" for i in
                      range(100)]
 
     if not os.path.isdir('../../result/original_result'):
         os.makedirs('../../result/original_result')
     style_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
-    file = open("../../result/original_result/mnist_new_20x50_deepsrgr_radius_result_" + str(style_time) + ".txt",
+    file = open("../../result/original_result/mnist_new_10x80_deepsrgr_radius_result_" + str(style_time) + ".txt",
                 mode="w+", encoding="utf-8")
 
     for property_i in property_list:
@@ -888,27 +910,80 @@ def mnist_robustness_radius_lp():
     file.close()
 
 
-def test_robustness_number_mrlp(d):
-    # Number of inputs to verify
-    amount = 100
-
+def cifar_robustness_radius_deeppoly():
     net = network()
-    net.load_nnet("../../models/nnet/ACASXU_run2a_1_1_batch_2000.nnet")
-    property_list = [f"../../acas_properties/acas_xu_p5_net_1_1/local_robustness_{i}.txt" for i in range(1, amount+1)]
+    net.load_nnet("../../models/cifar_new_6x80/cifar_net_new_6x80.nnet")
+    property_list = ["../../cifar_properties/cifar_properties_6x80/cifar_property_" + str(i) + ".txt" for i in
+                     range(100)]
 
     if not os.path.isdir('../../result/original_result'):
         os.makedirs('../../result/original_result')
-    file = open(f"../../result/original_result/acas_xu_p5_net_1_1_deepmr_3_number_result_delta_{d}_{style_time}.txt", mode="w+", encoding="utf-8")
+    style_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
+    file = open("../../result/original_result/cifar_new_6x80_deeppoly_radius_result_" + str(style_time) + ".txt",
+                mode="w+", encoding="utf-8")
 
+    for property_i in property_list:
+        start_time = time.time()
+        delta_base = net.find_max_disturbance(PROPERTY=property_i, TRIM=True)
+        end_time = time.time()
+        property_i = property_i[47:-4]
+        # property_i = property_i[:-4]
+        print(f"{property_i} -- delta_base : {delta_base}")
+        print(f"{property_i} -- time : {end_time - start_time}")
+
+        save_radius_result(property_i, delta_base, end_time - start_time, file)
+    file.close()
+
+
+def cifar_robustness_radius_lp():
+    net = network()
+    net.load_nnet("../../models/cifar_new_6x80/cifar_net_new_6x80.nnet")
+    property_list = ["../../cifar_properties/cifar_properties_6x80/cifar_property_" + str(i) + ".txt" for i in
+                     range(100)]
+
+    if not os.path.isdir('../../result/original_result'):
+        os.makedirs('../../result/original_result')
+    style_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
+    file = open("../../result/original_result/cifar_new_6x80_deepsrgr_radius_result_" + str(style_time) + ".txt",
+                mode="w+", encoding="utf-8")
+
+    for property_i in property_list:
+        print(f"{property_i}")
+        start_time = time.time()
+        delta_base = net.find_max_disturbance(PROPERTY=property_i, TRIM=True)
+        print("DeepPoly Max Verified Distrubance:", delta_base)
+        delta_base = net.find_max_disturbance_lp(PROPERTY=property_i, L=int(delta_base * 1000),
+                                                 R=int(delta_base * 1000 + 63), TRIM=True, WORKERS=28, SOLVER=cp.CBC)
+        end_time = time.time()
+        property_i = property_i[47:]
+        property_i = property_i[:-4]
+        print(f"{property_i} -- delta_base : {delta_base}")
+        print(f"{property_i} -- time : {end_time - start_time}")
+
+        save_radius_result(property_i, delta_base, end_time - start_time, file)
+    file.close()
+
+
+def test_robustness_number_mrlp(d):
+    # Number of inputs to verify
+    amount = 3  # gap images only
+
+    net = network()
+    net.load_nnet("../../models/cifar_new_6x80/cifar_net_new_6x80.nnet")
+    property_list = ["../../cifar_properties/cifar_properties_6x80/cifar_property_" + str(i) + ".txt" for i in [10, 15, 16]]
+
+    if not os.path.isdir('../../result/original_result'):
+        os.makedirs('../../result/original_result')
+    file = open("../../result/original_result/cifar_new_6x80_deepmr_3_add_inputlayer_gap_number_result_delta_" + str(d) + "_" + str(
+        style_time) + ".txt", mode="w+", encoding="utf-8")
 
     num_ans = 0
     time_ans = 0
     time_max = 0
-
     for property_i in property_list:
         start_time = time.time()
         num_single = net.find_robustness_number_mrlp(property_i, d, TRIM=True)
-        property_i = property_i[22:]
+        property_i = property_i[45:]
         property_i = property_i[:-4]
         if num_single == 1:
             print(f"{property_i} -- Verified")
@@ -930,7 +1005,6 @@ def test_robustness_number_mrlp(d):
     file.write("time_average : " + str(time_ans / amount) + "\n")
     file.write("time_max : " + str(time_max) + "\n")
 
-
     file.close()
     print("delta:", d)
     print("number_sum:", num_ans)
@@ -939,9 +1013,7 @@ def test_robustness_number_mrlp(d):
     print("time_max:", time_max)
 
 
-
 if __name__ == "__main__":
-
-    test_robustness_number_mrlp(2)
+    test_robustness_number_mrlp(0.0038)
 
 

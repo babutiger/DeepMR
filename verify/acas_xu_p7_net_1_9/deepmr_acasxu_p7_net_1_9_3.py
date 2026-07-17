@@ -290,8 +290,18 @@ class network(object):
                 # Create i binary variables using list comprehension
                 binary_vars = [cp.Variable(boolean=True) for _ in range(len_lastlayer)]
 
-                # Big-M method
-                M = 10000
+                # Adaptive Big-M: by the Big-M validity condition, M must be >= the upper bound of the
+                # constrained expression over the feasible region. For constraint variables[-1][i] >= -M(1-z_i),
+                # z_i = 0 requires the constraint to be non-binding, i.e. M >= max_i(-lower_bound(margin_i)).
+                # The margin lower bound comes from the current DeepPoly abstraction (tightened adaptively each
+                # iteration); a 2x safety factor guards against numerical error. Set the environment variable
+                # BIGM to override M with a fixed value (for the M-sensitivity check only).
+                _env_m = os.environ.get('BIGM')
+                if _env_m is not None:
+                    M = float(_env_m)
+                else:
+                    _mmin = max([-self.layers[-1].neurons[i].concrete_lower for i in verify_list], default=1.0)
+                    M = max(2.0 * _mmin, 1.0)
 
                 for i in verify_list:
                     # constraints.append(variables[-1][i] >= 0 - M * (1 - binary_vars[i]))

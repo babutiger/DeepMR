@@ -307,7 +307,6 @@ class network(object):
                     # constraints.append(variables[-1][i] >= 0 - M * (1 - binary_vars[i]))
                     constraints.append(variables[-1][i] >= 0 - M * (1 - binary_vars[verify_list.index(i)]))
 
-
                 #  Construct disjunctive relations
                 constraints.append(sum(binary_vars) >= 1)
 
@@ -316,10 +315,34 @@ class network(object):
                 prob.solve(solver=SOLVER)
                 if prob.status != cp.OPTIMAL:
                     print("Infeasible")
+                    # print("Split:", splits_num, "Infeasible")
                     break
 
                 refresh_start_time = time.time()
 
+                #Refresh the input layer bounds
+                mppool=mp.Pool(WORKERS)
+                tasklist=[]
+                input_neurons=self.layers[0].neurons
+                for k in range(self.inputSize):
+                    obj=cp.Minimize(variables[0][k])
+                    #Below using mp Pool
+                    tasklist.append((variables,constraints,obj,SOLVER))
+                    obj=cp.Maximize(variables[0][k])
+                    #Below using mp Pool
+                    tasklist.append((variables,constraints,obj,SOLVER))
+                #Below using mp Pool
+                resultlist=mppool.starmap(lpsolve,tasklist)
+                mppool.terminate()
+                for k in range(self.inputSize):
+                    if resultlist[k*2]>=input_neurons[k].concrete_lower:
+                        input_neurons[k].concrete_lower=resultlist[k*2]
+                        input_neurons[k].concrete_algebra_lower=np.array([resultlist[k*2]])
+                        input_neurons[k].algebra_lower=np.array([resultlist[k*2]])
+                    if resultlist[k*2+1]<=input_neurons[k].concrete_upper:
+                        input_neurons[k].concrete_upper=resultlist[k*2+1]
+                        input_neurons[k].concrete_algebra_upper=np.array([resultlist[k*2+1]])
+                        input_neurons[k].algebra_upper=np.array([resultlist[k*2+1]])
                 # Refresh the uncertain ReLu's lowerbound
                 mppool = mp.Pool(WORKERS)
                 count_uncertain = 0
@@ -409,6 +432,7 @@ class network(object):
         else:
             if MODE==self.MODE_ROBUSTNESS:
                 return False
+
 
 
 
@@ -894,11 +918,11 @@ def test_robustness_number_mrlp(d):
 
     net = network()
     net.load_nnet("../../models/nnet/ACASXU_run2a_1_1_batch_2000.nnet")
-    property_list = [f"../../acas_properties/acas_xu_p5_net_1_1/local_robustness_{i}.txt" for i in range(1, amount+1)]
+    property_list = [f"../../acas_properties/acas_xu_p6_net_1_1/local_robustness_{i}.txt" for i in range(1, amount+1)]
 
     if not os.path.isdir('../../result/original_result'):
         os.makedirs('../../result/original_result')
-    file = open(f"../../result/original_result/acas_xu_p5_net_1_1_deepmr_3_number_result_delta_{d}_{style_time}.txt", mode="w+", encoding="utf-8")
+    file = open(f"../../result/original_result/acas_xu_p6_net_1_1_deepmr_3_add_inputlayer_number_result_delta_{d}_{style_time}.txt", mode="w+", encoding="utf-8")
 
 
     num_ans = 0
@@ -941,7 +965,6 @@ def test_robustness_number_mrlp(d):
 
 
 if __name__ == "__main__":
-
-    test_robustness_number_mrlp(2)
+    test_robustness_number_mrlp(120)
 
 
