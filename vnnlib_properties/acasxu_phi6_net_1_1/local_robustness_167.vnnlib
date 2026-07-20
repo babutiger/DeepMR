@@ -1,0 +1,33 @@
+; local_robustness_167.txt  (eps = 120.0)
+
+(declare-const X_0 Real)
+(declare-const X_1 Real)
+(declare-const X_2 Real)
+(declare-const X_3 Real)
+(declare-const X_4 Real)
+
+(declare-const Y_0 Real)
+(declare-const Y_1 Real)
+(declare-const Y_2 Real)
+(declare-const Y_3 Real)
+(declare-const Y_4 Real)
+
+; Input constraints:
+(assert (<= X_0 12120))
+(assert (>= X_0 11880))
+(assert (<= X_1 120.7))
+(assert (>= X_1 -119.3))
+(assert (<= X_2 123.1415927))
+(assert (>= X_2 -116.8584073))
+(assert (<= X_3 870))
+(assert (>= X_3 630))
+(assert (<= X_4 1120))
+(assert (>= X_4 880))
+
+; Output constraints (a counterexample satisfies one of the unsafe half-spaces):
+(assert (or
+    (and (>= Y_3 Y_0))
+    (and (>= Y_3 Y_1))
+    (and (>= Y_3 Y_2))
+    (and (>= Y_3 Y_4))
+))
