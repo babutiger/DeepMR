@@ -8,7 +8,9 @@ Encoding of the result files: the `verified` field is `1` (verified), `0` (finis
 
 ## 1. ERAN (VNN-COMP community) benchmarks
 
-We evaluate on the VNN-COMP `mnist-fc` community networks `6×100` (= community 5×100), `9×100` (= community 8×100), and the wider `6×200`, `9×200`, using the `vnncomp_eran_properties`. DeepPoly / DeepMR / DeepSRGR run on CPU (Ryzen 9 7950X, 28 processes); β-CROWN runs on GPU (RTX 4090). Sampling: 50 instances for the 100-wide nets (DeepMR/DeepSRGR); reduced samples + timeout for the 200-wide nets.
+We evaluate on the VNN-COMP `mnist-fc` community networks `6×100` (= community 5×100), `9×100` (= community 8×100), and the wider `6×200`, `9×200`, using the `vnncomp_eran_properties`. DeepPoly / DeepMR / DeepSRGR run on CPU (Ryzen 9 7950X, 28 processes); β-CROWN runs on GPU (RTX 4090). Sampling: 50 instances for the 100-wide nets (DeepMR/DeepSRGR); reduced samples for the wider 200-wide nets, where a single refinement can take hours.
+
+**Per-input budget.** In the paper (Table 5) the two refinement methods are compared under a single per-network budget shared by both: none on `6×100` (both finish, ≤ 4181 s), **20000 s** on `9×100`, **10000 s** on `6×200`, and **8000 s** on `9×200`; any instance not finished within it is counted at that budget. The table below differs in two harmless ways. (i) Its averages are over *finished* instances only (DNF excluded, per the encoding note above), whereas Table 5 also counts the timed-out instances at the budget, so the paper's averages read higher. (ii) DeepMR here was run without a hard cap, so its two hardest `6×200` instances run to completion in 11–13 ks and appear as *finished-not-verified* (DNF 0) rather than as the two `6×200` timeouts recorded under the shared 10000 s budget in the paper.
 
 | Network | Tool | V | n | avg (s) | max (s) | DNF |
 | --- | --- | --- | --- | --- | --- | --- |
