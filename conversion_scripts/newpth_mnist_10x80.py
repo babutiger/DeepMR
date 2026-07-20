@@ -1,13 +1,13 @@
-# 把普通训练好的 pth 文件 转换成 beta-crown 需要的 pth 文件 2025年01月14日21:42:54
+# Convert an ordinary trained pth file into the pth file required by beta-crown 2025-01-14 21:42:54
 
-# 加载预训练模型的权重：在实例化 OriginalNeuralNetwork 类之后，确保你加载了相应的权重。
-# 避免在每次运行代码时重新初始化权重：通过直接从文件中加载已保存的模型权重。
-# 自动生成 mapping 字典
+# Load the pretrained model weights: after instantiating the OriginalNeuralNetwork class, make sure you load the corresponding weights.
+# Avoid re-initializing the weights every time the code runs: load the saved model weights directly from a file.
+# Automatically generate the mapping dictionary
 
 import torch
 from torch import nn
 
-# 原始模型的定义
+# Definition of the original model
 class OriginalNeuralNetwork(nn.Module):
     def __init__(self):
         super(OriginalNeuralNetwork, self).__init__()
@@ -39,10 +39,10 @@ class OriginalNeuralNetwork(nn.Module):
         x = self.linear_relu_stack(x)
         return x
 
-# 修改后的模型，定义为 nn.Sequential，添加 nn.Flatten()
+# Modified model, defined as nn.Sequential with nn.Flatten() added
 def create_modified_model():
     model = nn.Sequential(
-        nn.Flatten(),  # 添加 Flatten 层
+        nn.Flatten(),  # Add a Flatten layer
         nn.Linear(784, 80),
         nn.ReLU(),
         nn.Linear(80, 80),
@@ -68,29 +68,29 @@ def create_modified_model():
     return model
 
 
-# 加载原来的模型参数
+# Load the original model parameters
 original_model_path = '../mnist_net_new_10x80.pth'
 original_state_dict = torch.load(original_model_path)
 
-# 创建原始模型实例并加载权重
+# Create an instance of the original model and load the weights
 old_model = OriginalNeuralNetwork()
 old_model.load_state_dict(original_state_dict)
 
-# 创建新的模型实例
+# Create a new model instance
 new_model = create_modified_model()
 
-# 自动生成 mapping 字典
+# Automatically generate the mapping dictionary
 mapping = {}
 for i, layer in enumerate(old_model.linear_relu_stack):
     if isinstance(layer, nn.Linear):
         print(f"i:{i}")
-        # 这里原先搞错了，导致有些层没有处理，只处理了0 4 8 这种，因为我乘以2了，而i本身就是0 2 4 这种 2025年01月14日21:14:23
+        # This was originally wrong, so some layers were not handled and only 0 4 8 were processed, because I multiplied by 2 while i itself is already 0 2 4 2025-01-14 21:14:23
         mapping[f'linear_relu_stack.{i}.weight'] = f'{i + 1}.weight'
         mapping[f'linear_relu_stack.{i}.bias'] = f'{i + 1}.bias'
 
 
 
-# 将原模型的参数转换为新模型的格式
+# Convert the original model parameters to the new model format
 new_state_dict = {}
 for old_key in mapping.keys():
     new_key = mapping[old_key]
@@ -100,22 +100,22 @@ for old_key in mapping.keys():
 
 
 # new_state_dict = {}
-# # 根据映射关系重新命名参数
+# # Rename parameters according to the mapping relationship
 # for old_key, new_key in mapping.items():
 #     if old_key in original_state_dict:
 #         new_state_dict[new_key] = original_state_dict[old_key]
 
 
-# 将修正后的参数加载到新模型
+# Load the corrected parameters into the new model
 new_model.load_state_dict(new_state_dict, strict=False)
 
-# 保存新的模型为 .pth 文件
+# Save the new model as a .pth file
 new_model_path = '../mnist_net_new_10x80_check_for_bcrown.pth'
 torch.save(new_model.state_dict(), new_model_path)
 
 print(f"New model saved to {new_model_path} with nn.Flatten() added.")
 
-# 打印原始模型的结构和参数信息
+# Print the structure and parameter information of the original model
 print("\nOriginal Model Structure:")
 print(old_model)
 
@@ -123,16 +123,16 @@ print("\nOriginal Model Layer-wise Parameters:")
 for name, param in old_model.named_parameters():
     print(f"{name}: {param.size()}")
 
-# 打印修改后的模型结构
+# Print the modified model structure
 print("\nModified Model Structure:")
 print(new_model)
 
-# 打印修改后的模型的每一层参数的维度
+# Print the dimensions of each layer's parameters in the modified model
 print("\nModified Model Layer-wise Parameters:")
 for name, param in new_model.named_parameters():
     print(f"{name}: {param.size()}")
 
-# 打印新旧模型的所有权重参数和偏置参数
+# Print all weight and bias parameters of the old and new models
 print("\nOriginal Model Weights and Biases:")
 for name, param in old_model.named_parameters():
     if 'weight' in name or 'bias' in name:

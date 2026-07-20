@@ -1,4 +1,4 @@
-# 处理maranbou格式输入，整个文件夹全部处理
+# Process Marabou-format input; process the entire folder
 
 import os
 
@@ -9,7 +9,7 @@ def process_file(input_file, output_file, epsilon):
         n = 0
         l = -1
 
-        # 查找第一行元素个数大于1的行，找到`-1`的索引位置l，并记录大于1的行数n
+        # Find rows with more than 1 element, locate the index l of `-1`, and count the number of such rows n
         for i, line in enumerate(lines):
             elements = line.split()
             if len(elements) > 1:
@@ -17,7 +17,7 @@ def process_file(input_file, output_file, epsilon):
                 if l == -1 and '-1' in elements:
                     l = elements.index('-1')
 
-        # 处理元素个数为1的行
+        # Process rows that have exactly 1 element
         for i, line in enumerate(lines):
             elements = line.split()
 
@@ -30,7 +30,7 @@ def process_file(input_file, output_file, epsilon):
                 outfile.write(f"x{i} >= {lower_bound}\n")
                 outfile.write(f"x{i} <= {upper_bound}\n")
 
-        # 写入指定格式的内容，仅写入一次
+        # Write the content in the specified format, only once
         if l != -1:
             for j in range(n + 1):
                 if j != l:
@@ -38,11 +38,11 @@ def process_file(input_file, output_file, epsilon):
 
 
 def process_folder(input_folder, output_folder, epsilon=0.015):
-    # 创建输出文件夹，如果不存在
+    # Create the output folder if it does not exist
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
-    # 遍历输入文件夹中的所有文件
+    # Iterate over all files in the input folder
     for filename in os.listdir(input_folder):
         if filename.endswith('.txt'):
             print(filename)
@@ -51,7 +51,7 @@ def process_folder(input_folder, output_folder, epsilon=0.015):
             process_file(input_file, output_file, epsilon)
 
 
-# 使用示例
-input_folder = '../mnist_properties/mnist_properties_10x80'  # 替换为文件夹A的路径
-output_folder = '../mnist_properties/B'  # 替换为文件夹B的路径
+# Usage example
+input_folder = '../mnist_properties/mnist_properties_10x80'  # replace with the path to folder A
+output_folder = '../mnist_properties/B'  # replace with the path to folder B
 process_folder(input_folder, output_folder)

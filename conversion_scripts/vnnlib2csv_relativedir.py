@@ -1,5 +1,5 @@
-# 把一个文件夹里所有的vnnnlib格式的文件的路径提取到一个csv文件中 ，但是用的是相对路径 2025年01月15日18:39:33
-# 按从0到99的顺序排列的
+# Extract the paths of all vnnlib-format files in a folder into a csv file, but using relative paths 2025-01-15 18:39:33
+# Sorted in order from 0 to 99
 
 import os
 import csv

@@ -1,4 +1,4 @@
-# 处理maranbou格式输入，单个文件处理
+# Process Marabou-format input, single-file processing
 
 def process_file(input_file, output_file, epsilon=0.026):
     with open(input_file, 'r') as infile, open(output_file, 'w') as outfile:
@@ -7,7 +7,7 @@ def process_file(input_file, output_file, epsilon=0.026):
         n = 0
         l = -1
 
-        # 查找第一行元素个数大于1的行，找到`-1`的索引位置l，并记录大于1的行数n
+        # Find rows whose element count is greater than 1, locate the index position l of `-1`, and record the number of rows n with more than 1 element
         for i, line in enumerate(lines):
             elements = line.split()
             if len(elements) > 1:
@@ -15,7 +15,7 @@ def process_file(input_file, output_file, epsilon=0.026):
                 if l == -1 and '-1' in elements:
                     l = elements.index('-1')
 
-        # 处理元素个数为1的行
+        # Process rows with exactly 1 element
         for i, line in enumerate(lines):
             elements = line.split()
 
@@ -28,14 +28,14 @@ def process_file(input_file, output_file, epsilon=0.026):
                 outfile.write(f"x{i} >= {lower_bound}\n")
                 outfile.write(f"x{i} <= {upper_bound}\n")
 
-        # 写入指定格式的内容，仅写入一次
+        # Write content in the specified format, only once
         if l != -1:
             for j in range(n + 1):
                 if j != l:
                     outfile.write(f"+y{j} -y{l} <= 0\n")
 
 
-# 使用示例
+# Usage example
 input_file = '../mnist_properties/mnist_properties_10x80/mnist_property_0.txt'
 # input_file = '../cifar_properties/cifar_properties_10x100/cifar_property_0.txt'
 output_file = '../test_code/processed_output2.txt'

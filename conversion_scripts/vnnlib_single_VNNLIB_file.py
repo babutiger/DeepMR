@@ -1,4 +1,4 @@
-# 单个要验证的mnist性质的txt文本转换成vnnlib格式 2025年01月15日17:10:23
+# Convert the txt text of a single MNIST property to be verified into vnnlib format 2025-01-15 17:10:23
 
 import os
 

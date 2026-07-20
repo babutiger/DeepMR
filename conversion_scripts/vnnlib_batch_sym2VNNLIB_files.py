@@ -1,5 +1,5 @@
-# 把一个文件夹里的所有要验证的mnist性质的txt转换成vnnlib的格式，批处理  2025年01月15日17:11:07
-# 并且要保存的目录不用手动新建，可以自动生成
+# Batch-convert all MNIST property txt files to be verified in a folder into vnnlib format  2025-01-15 17:11:07
+# And the output directory does not need to be created manually; it is generated automatically
 
 import os
 
