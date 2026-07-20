@@ -186,11 +186,11 @@ class network(object):
             cur_neuron.concrete_lower = lower_bound[0]
             cur_neuron.concrete_upper = upper_bound[0]
 
-            # print("cur_neuron.concrete_lower:", cur_neuron.concrete_lower)
-            # print("cur_neuron.concrete_upper:", cur_neuron.concrete_upper)
+            print("cur_neuron.concrete_lower:", cur_neuron.concrete_lower)
+            print("cur_neuron.concrete_upper:", cur_neuron.concrete_upper)
 
         for i in range(len(self.layers) - 1):
-            # print('i=',i)
+            print('i=',i)
             pre_layer = self.layers[i]
             cur_layer = self.layers[i + 1]
             pre_neuron_list = pre_layer.neurons
@@ -280,9 +280,9 @@ class network(object):
             for i in range(self.layerSizes[0]):
                 line = f.readline()
                 linedata = [float(line.strip()) - delta, float(line.strip()) + delta]
-                if TRIM:
-                    if linedata[0] < 0: linedata[0] = 0
-                    if linedata[1] > 1: linedata[1] = 1
+                # if TRIM:
+                #     if linedata[0] < 0: linedata[0] = 0
+                #     if linedata[1] > 1: linedata[1] = 1
 
                 self.layers[0].neurons[i].concrete_lower = linedata[0]
                 self.layers[0].neurons[i].concrete_upper = linedata[1]
@@ -320,6 +320,10 @@ class network(object):
             # numLayers doesn't include the input layer!
             numLayers, inputSize, outputSize, _ = [int(x) for x in line.strip().split(",")[:-1]]
             line = f.readline()
+
+            print(numLayers)
+            print(inputSize)
+            print(outputSize)
 
             # input layer size, layer1size, layer2size...
             layerSizes = [int(x) for x in line.strip().split(",")[:-1]]
@@ -415,8 +419,9 @@ class network(object):
         self.deeppoly()
         flag = True
         for neuron_i in self.layers[-1].neurons:  # 这么写表示和其他数字有交集？判断网络f可达集与不安全区域S- 是否有交集？
-            # print("neuron_i.concrete_upper：", neuron_i.concrete_upper)
-            if neuron_i.concrete_upper > 0:  # 这是unkown鲁棒不鲁棒!  表示 网络f可达集与不安全区域S- 有 交集！
+            print("neuron_i.concrete_lower：", neuron_i.concrete_lower)
+            print("neuron_i.concrete_upper：", neuron_i.concrete_upper)
+            if neuron_i.concrete_upper < 0:  # 这是unkown鲁棒不鲁棒!  表示 网络f可达集与不安全区域S- 有 交集！  这个和属性设置有关系，我们这里属性设置的是+1,所以这样写，在mnist那里，属性是-1,所以设置的是>0，刚好反过来
                 flag = False  # 所以这是写成1 ，-1的原因，两者相减
         if flag == True:  # 这是鲁棒safe! 网络f可达集与不安全区域S- 没有 交集！
             # print('Verified')
@@ -538,6 +543,53 @@ def test_robustness_number_poly(d):
 
 
 
+def test_deeppoly(d):
+    # 要验证的图片数量
+    amount = 1
+
+    net = network()
+    net.load_nnet("../../models/test1_new_deeppoly/test1_new_deeppoly.nnet")
+    property_list = ["../../test_properties/test1.txt"]
+
+    if not os.path.isdir('../../result/original_result'):
+        os.makedirs('../../result/original_result')
+    file = open("../../result/original_result/mnist_new_10x80_deeppoly_number_result_delta_"+ str(d) +"_"+ str(style_time) +".txt", mode="w+", encoding="utf-8")
+
+    num_ans = 0
+    time_ans = 0
+    time_max = 0
+    for property_i in property_list:
+        start_time = time.time()
+        num_single = net.find_robustness_number_poly(property_i, d, TRIM=True)
+        property_i = property_i[46:]
+        property_i = property_i[:-4]
+        if num_single == 1:
+            print(f"{property_i} -- Verified")
+        else:
+            print(f"{property_i} -- UnVerified")
+
+        num_ans += num_single
+        end_time = time.time()
+        time_single = end_time - start_time
+        print("time:", time_single)
+        time_ans += time_single
+        if time_single > time_max:
+            time_max = time_single
+
+        save_number_result(property_i, num_single, time_single, file)
+    file.write("delta : " + str(d) + "\n")
+    file.write("number_sum : " + str(num_ans) + "\n")
+    file.write("time_sum : " + str(time_ans) + "\n")
+    file.write("time_average : " + str(time_ans/amount) + "\n")
+    file.write("time_max : " + str(time_max) + "\n")
+
+
+    file.close()
+    print("delta:", d)
+    print("number_sum:", num_ans)
+    print("time_sum:", time_ans)
+    print("time_average:", time_ans/amount)
+    print("time_max:", time_max)
 
 
 
@@ -550,7 +602,10 @@ if __name__ == "__main__":
     # mnist_robustness_radius()
     # cifar_robustness_radius()
 
-    test_robustness_number_poly(0.015)
+    # test_robustness_number_poly(0.015)
+
+    test_deeppoly(1)
+    # 这个例子证明了这样子求deeppoly是正确的
 
 
 

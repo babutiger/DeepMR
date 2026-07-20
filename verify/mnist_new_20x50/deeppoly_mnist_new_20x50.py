@@ -7,11 +7,7 @@ import sys
 base_dir = os.path.dirname(os.path.dirname(os.getcwd()))
 sys.path[0] = base_dir
 
-
-
 from utils.util import save_radius_result, save_number_result
-
-
 
 class Logger(object):
     def __init__(self, filename='default.log', stream=sys.stdout):
@@ -410,6 +406,7 @@ class network(object):
                 R = mid - 1
         return ans
 
+
     def find_robustness_number_poly(self, PROPERTY, t, TRIM=False):
         self.load_robustness(PROPERTY, delta=t, TRIM=TRIM)
         self.deeppoly()
@@ -433,14 +430,14 @@ class network(object):
 
 def mnist_robustness_radius():
     net = network()
-    net.load_nnet("../../models/mnist_new_10x80/mnist_net_new_10x80.nnet")
-    property_list = ["../../mnist_properties/mnist_properties_10x80/mnist_property_" + str(i) + ".txt" for i in range(100)]
+    net.load_nnet("../../models/mnist_new_20x50/mnist_net_new_20x50.nnet")
+    property_list = ["../../mnist_properties/mnist_properties_20x50/mnist_property_" + str(i) + ".txt" for i in range(100)]
 
 
     if not os.path.isdir('../../result/original_result'):
         os.makedirs('../../result/original_result')
     style_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
-    file = open("../../result/original_result/mnist_new_10x80_deeppoly_radius_result_" + str(style_time) + ".txt", mode="w+", encoding="utf-8")
+    file = open("../../result/original_result/mnist_new_20x50_deeppoly_radius_result_" + str(style_time) + ".txt", mode="w+", encoding="utf-8")
 
     for property_i in property_list:
         start_time = time.time()
@@ -454,6 +451,7 @@ def mnist_robustness_radius():
 
         save_radius_result(property_i, delta_base, end_time - start_time, file)
     file.close()
+
 
 
 def acas_robustness_radius():
@@ -486,23 +484,21 @@ def cifar_robustness_radius():
         print(f"{property_i} -- time : {end_time - star_time}")
 
 
-
 def test_robustness_number_poly(d):
     # 要验证的图片数量
-    amount = 100
+    amount = 10
 
     net = network()
-    net.load_nnet("../../models/mnist_new_10x80/mnist_net_new_10x80.nnet")
-    property_list = ["../../mnist_properties/mnist_properties_10x80/mnist_property_" + str(i) + ".txt" for i in
+    net.load_nnet("../../models/mnist_new_20x50/mnist_net_new_20x50.nnet")
+    property_list = ["../../mnist_properties/mnist_properties_20x50/mnist_property_" + str(i) + ".txt" for i in
                      range(amount)]
 
     if not os.path.isdir('../../result/original_result'):
         os.makedirs('../../result/original_result')
-    file = open("../../result/original_result/mnist_new_10x80_deeppoly_number_result_delta_"+ str(d) +"_"+ str(style_time) +".txt", mode="w+", encoding="utf-8")
+    file = open("../../result/original_result/mnist_new_20x50_deeppoly_number_result_delta_"+ str(d) +"_"+ str(style_time) +".txt", mode="w+", encoding="utf-8")
 
     num_ans = 0
     time_ans = 0
-    time_max = 0
     for property_i in property_list:
         start_time = time.time()
         num_single = net.find_robustness_number_poly(property_i, d, TRIM=True)
@@ -518,15 +514,12 @@ def test_robustness_number_poly(d):
         time_single = end_time - start_time
         print("time:", time_single)
         time_ans += time_single
-        if time_single > time_max:
-            time_max = time_single
 
         save_number_result(property_i, num_single, time_single, file)
     file.write("delta : " + str(d) + "\n")
     file.write("number_sum : " + str(num_ans) + "\n")
     file.write("time_sum : " + str(time_ans) + "\n")
     file.write("time_average : " + str(time_ans/amount) + "\n")
-    file.write("time_max : " + str(time_max) + "\n")
 
 
     file.close()
@@ -534,10 +527,6 @@ def test_robustness_number_poly(d):
     print("number_sum:", num_ans)
     print("time_sum:", time_ans)
     print("time_average:", time_ans/amount)
-    print("time_max:", time_max)
-
-
-
 
 
 
@@ -550,7 +539,8 @@ if __name__ == "__main__":
     # mnist_robustness_radius()
     # cifar_robustness_radius()
 
-    test_robustness_number_poly(0.015)
+    test_robustness_number_poly(0.005)
+    test_robustness_number_poly(0)
 
 
 

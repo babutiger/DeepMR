@@ -1,4 +1,5 @@
 import os
+
 from copy import deepcopy
 import numpy as np
 import time
@@ -6,11 +7,7 @@ import time
 import sys
 base_dir = os.path.dirname(os.path.dirname(os.getcwd()))
 sys.path[0] = base_dir
-
-
-
 from utils.util import save_radius_result, save_number_result
-
 
 
 class Logger(object):
@@ -43,7 +40,7 @@ sys.stdout = Logger("../../result/log/"+script_name_without_extension+"_log_" + 
 class neuron(object):
     """
     Attributes:
-        algebra_lower (numpy ndarray of float): neuron's algebra lower bound(coeffients of previous neurons and a constant)
+        algebra_lower (numpy ndarray of float): neuron's algeb  ra lower bound(coeffients of previous neurons and a constant)
         algebra_upper (numpy ndarray of float): neuron's algebra upper bound(coeffients of previous neurons and a constant)
         concrete_algebra_lower (numpy ndarray of float): neuron's algebra lower bound(coeffients of input neurons and a constant)
         concrete_algebra_upper (numpy ndarray of float): neuron's algebra upper bound(coeffients of input neurons and a constant)
@@ -172,7 +169,7 @@ class network(object):
                 tmp_upper[-1] += upper_bound[-1]
                 # print("tmp_upper[-1]:", tmp_upper[-1])
 
-                lower_bound = deepcopy(tmp_lower)  # Moving forward is a very important step
+                lower_bound = deepcopy(tmp_lower)
                 # print("lower_bound:", lower_bound)
                 upper_bound = deepcopy(tmp_upper)
                 # print("upper_bound：", upper_bound)
@@ -185,9 +182,6 @@ class network(object):
             assert (len(upper_bound) == 1)
             cur_neuron.concrete_lower = lower_bound[0]
             cur_neuron.concrete_upper = upper_bound[0]
-
-            # print("cur_neuron.concrete_lower:", cur_neuron.concrete_lower)
-            # print("cur_neuron.concrete_upper:", cur_neuron.concrete_upper)
 
         for i in range(len(self.layers) - 1):
             # print('i=',i)
@@ -223,8 +217,6 @@ class network(object):
                     elif pre_neuron.concrete_upper <= 0:
                         cur_neuron.algebra_lower = np.zeros(cur_layer.size + 1)
                         cur_neuron.algebra_upper = np.zeros(cur_layer.size + 1)
-                        # cur_neuron.algebra_lower[j] = 0
-                        # cur_neuron.algebra_upper[j] = 0   This step is already implemented during initialization, so it is not needed
                         cur_neuron.concrete_algebra_lower = np.zeros(self.inputSize)
                         cur_neuron.concrete_algebra_upper = np.zeros(self.inputSize)
                         cur_neuron.concrete_lower = 0
@@ -232,6 +224,9 @@ class network(object):
                         cur_neuron.certain_flag = 2
 
                     elif pre_neuron.concrete_lower + pre_neuron.concrete_upper <= 0:
+                        # print("---------11112220-------")
+                        # print("pre_neuron.concrete_lower:", pre_neuron.concrete_lower)
+                        # print("pre_neuron.concrete_upper:", pre_neuron.concrete_upper)
 
 
                         cur_neuron.algebra_lower = np.zeros(cur_layer.size + 1)
@@ -399,61 +394,48 @@ class network(object):
             self.load_robustness(PROPERTY, mid / 1000, TRIM=TRIM)
             self.deeppoly()
             flag = True
-            for neuron_i in self.layers[-1].neurons:  # Determine whether the reachable set of network f intersects with the insecure region S-
+            for neuron_i in self.layers[-1].neurons:
                 # print("neuron_i.concrete_upper：", neuron_i.concrete_upper)
-                if neuron_i.concrete_upper > 0:  # Indicates that the network f reachable set intersects with the insecure region S-!
-                    flag = False  #
-            if flag == True:  # It's robust safe! The network f reachable set has no intersection with the insecure region S-!
+                if neuron_i.concrete_upper > 0:
+                    flag = False
+            if flag == True:
                 ans = mid / 1000
                 L = mid + 1
-            else:  # Not robust!
+            else:
                 R = mid - 1
         return ans
 
-    def find_robustness_number_poly(self, PROPERTY, t, TRIM=False):
+
+    def find_robustness_number(self, PROPERTY, t, TRIM=False):
         self.load_robustness(PROPERTY, delta=t, TRIM=TRIM)
         self.deeppoly()
         flag = True
-        for neuron_i in self.layers[-1].neurons:  # 这么写表示和其他数字有交集？判断网络f可达集与不安全区域S- 是否有交集？
+        for neuron_i in self.layers[-1].neurons:
             # print("neuron_i.concrete_upper：", neuron_i.concrete_upper)
-            if neuron_i.concrete_upper > 0:  # 这是unkown鲁棒不鲁棒!  表示 网络f可达集与不安全区域S- 有 交集！
-                flag = False  # 所以这是写成1 ，-1的原因，两者相减
-        if flag == True:  # 这是鲁棒safe! 网络f可达集与不安全区域S- 没有 交集！
+            if neuron_i.concrete_upper > 0:
+                flag = False
+        if flag == True:
             # print('Verified')
             num = 1
-        else:  # 不鲁棒!
+        else:
             # print('Unverified')
             num = 0
         return num
 
 
 
-
-
-
 def mnist_robustness_radius():
     net = network()
     net.load_nnet("../../models/mnist_new_10x80/mnist_net_new_10x80.nnet")
-    property_list = ["../../mnist_properties/mnist_properties_10x80/mnist_property_" + str(i) + ".txt" for i in range(100)]
-
-
-    if not os.path.isdir('../../result/original_result'):
-        os.makedirs('../../result/original_result')
-    style_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
-    file = open("../../result/original_result/mnist_new_10x80_deeppoly_radius_result_" + str(style_time) + ".txt", mode="w+", encoding="utf-8")
-
+    property_list = ["../../mnist_properties/mnist_property_" + str(i) + ".txt" for i in range(100)]
     for property_i in property_list:
         start_time = time.time()
         delta_base = net.find_max_disturbance(PROPERTY=property_i, TRIM=True)
         end_time = time.time()
-        property_i = property_i[46:]
+        property_i = property_i[23:]
         property_i = property_i[:-4]
-        # c_time = end_time - start_time
         print(f"{property_i} -- delta_base : {delta_base}")
         print(f"{property_i} -- time : {end_time - start_time}")
-
-        save_radius_result(property_i, delta_base, end_time - start_time, file)
-    file.close()
 
 
 def acas_robustness_radius():
@@ -474,83 +456,34 @@ def acas_robustness_radius():
 
 def cifar_robustness_radius():
     net = network()
-    net.load_nnet("models/cifar_net.nnet")
-    property_list = ["cifar_properties/cifar_properties_10x100/cifar_property_" + str(i) + ".txt" for i in range(50)]
-    for property_i in property_list:
-        star_time = time.time()
-        delta_base = net.find_max_disturbance(PROPERTY=property_i, TRIM=True)
-        end_time = time.time()
-        property_i = property_i[41:-4]
-        # property_i = property_i[:-4]
-        print(f"{property_i} -- delta_base : {delta_base}")
-        print(f"{property_i} -- time : {end_time - star_time}")
-
-
-
-def test_robustness_number_poly(d):
-    # 要验证的图片数量
-    amount = 100
-
-    net = network()
-    net.load_nnet("../../models/mnist_new_10x80/mnist_net_new_10x80.nnet")
-    property_list = ["../../mnist_properties/mnist_properties_10x80/mnist_property_" + str(i) + ".txt" for i in
-                     range(amount)]
+    net.load_nnet("../../models/cifar_new_16x250/cifar_net_new_16x250.nnet")
+    property_list = ["../../cifar_properties/cifar_properties_16x250/cifar_property_" + str(i) + ".txt" for i in range(100)]
 
     if not os.path.isdir('../../result/original_result'):
         os.makedirs('../../result/original_result')
-    file = open("../../result/original_result/mnist_new_10x80_deeppoly_number_result_delta_"+ str(d) +"_"+ str(style_time) +".txt", mode="w+", encoding="utf-8")
+    style_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
+    file = open("../../result/original_result/cifar_new_16x250_deeppoly_radius_result_" + str(style_time) + ".txt", mode="w+", encoding="utf-8")
 
-    num_ans = 0
-    time_ans = 0
-    time_max = 0
+
     for property_i in property_list:
         start_time = time.time()
-        num_single = net.find_robustness_number_poly(property_i, d, TRIM=True)
-        property_i = property_i[46:]
-        property_i = property_i[:-4]
-        if num_single == 1:
-            print(f"{property_i} -- Verified")
-        else:
-            print(f"{property_i} -- UnVerified")
-
-        num_ans += num_single
+        delta_base = net.find_max_disturbance(PROPERTY=property_i, TRIM=True)
         end_time = time.time()
-        time_single = end_time - start_time
-        print("time:", time_single)
-        time_ans += time_single
-        if time_single > time_max:
-            time_max = time_single
+        property_i = property_i[47:-4]
+        # property_i = property_i[:-4]
+        print(f"{property_i} -- delta_base : {delta_base}")
+        print(f"{property_i} -- time : {end_time - start_time}")
 
-        save_number_result(property_i, num_single, time_single, file)
-    file.write("delta : " + str(d) + "\n")
-    file.write("number_sum : " + str(num_ans) + "\n")
-    file.write("time_sum : " + str(time_ans) + "\n")
-    file.write("time_average : " + str(time_ans/amount) + "\n")
-    file.write("time_max : " + str(time_max) + "\n")
-
-
+        save_radius_result(property_i, delta_base, end_time - start_time, file)
     file.close()
-    print("delta:", d)
-    print("number_sum:", num_ans)
-    print("time_sum:", time_ans)
-    print("time_average:", time_ans/amount)
-    print("time_max:", time_max)
-
-
-
-
-
-
 
 
 
 
 if __name__ == "__main__":
+    # test_acas()
+    cifar_robustness_radius()
 
-    # mnist_robustness_radius()
-    # cifar_robustness_radius()
-
-    test_robustness_number_poly(0.015)
 
 
 

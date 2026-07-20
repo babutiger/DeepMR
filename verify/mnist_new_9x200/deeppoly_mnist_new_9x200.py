@@ -7,38 +7,37 @@ import sys
 base_dir = os.path.dirname(os.path.dirname(os.getcwd()))
 sys.path[0] = base_dir
 
-
-
-from utils.util import save_radius_result, save_number_result
+from Symbolic_Computation.utils.util import save_radius_result, save_number_result
 
 
 
-class Logger(object):
-    def __init__(self, filename='default.log', stream=sys.stdout):
-        self.terminal = stream
-        self.log = open(filename, 'a')
-
-    # def write(self, message):
-    #     self.terminal.write(message)
-    #     self.log.write(message)
-
-    def write(self, message):
-        self.terminal.write(message)
-        self.terminal.flush()
-        self.log.write(message)
-        self.log.flush()
-
-    def flush(self):
-        pass
-
-# Get the filename of the current script,Remove the file extension from the filename
-script_filename = os.path.basename(__file__)
-script_name_without_extension = os.path.splitext(script_filename)[0]
+# class Logger(object):
+#     def __init__(self, filename='default.log', stream=sys.stdout):
+#         self.terminal = stream
+#         self.log = open(filename, 'a')
+#
+#     # def write(self, message):
+#     #     self.terminal.write(message)
+#     #     self.log.write(message)
+#
+#     def write(self, message):
+#         self.terminal.write(message)
+#         self.terminal.flush()
+#         self.log.write(message)
+#         self.log.flush()
+#
+#     def flush(self):
+#         pass
+#
+# # Get the filename of the current script,Remove the file extension from the filename
+# script_filename = os.path.basename(__file__)
+# script_name_without_extension = os.path.splitext(script_filename)[0]
+#
+# style_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
+# sys.stdout = Logger("../../result/log/"+script_name_without_extension+"_log_" + str(style_time) + ".txt", sys.stdout)
+# # sys.stderr = Logger("../log/a_err_" + str(style_time) + ".txt", sys.stderr)  # redirect std err, if necessary
 
 style_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
-sys.stdout = Logger("../../result/log/"+script_name_without_extension+"_log_" + str(style_time) + ".txt", sys.stdout)
-# sys.stderr = Logger("../log/a_err_" + str(style_time) + ".txt", sys.stderr)  # redirect std err, if necessary
-
 
 class neuron(object):
     """
@@ -426,6 +425,71 @@ class network(object):
             num = 0
         return num
 
+    def find_robustness_number_test(self, PROPERTY, t, TRIM=False):
+        self.load_robustness(PROPERTY, delta=t, TRIM=TRIM)
+        self.deeppoly()
+        flag = True
+
+        for neuron_i in self.layers[-1].neurons:  # 这么写表示和其他数字有交集？判断网络f可达集与不安全区域S- 是否有交集？
+            # print("neuron_i.concrete_lower：", neuron_i.concrete_lower)
+            # print("neuron_i.concrete_upper：", neuron_i.concrete_upper)
+            # print("------------")
+            if neuron_i.concrete_upper > 0:  # 这是unkown鲁棒不鲁棒!  表示 网络f可达集与不安全区域S- 有 交集！
+                flag = False  # 所以这是写成1 ，-1的原因，两者相减
+
+        save_deeppoly = []
+
+        if flag == True:  # 这是鲁棒safe! 网络f可达集与不安全区域S- 没有 交集！
+            # print('Verified')
+            num = 1
+
+            len_layerSizes = (len(self.layerSizes)-1)*2
+            # print(len_layerSizes)
+
+            # save_deeppoly = []
+
+            for t in range(1, len_layerSizes+1):  # 从索引 1 开始
+                # print(f"t:{t}")
+                save_deeppoly_layer = []
+                for neuron_i in self.layers[t].neurons:  # 这么写表示和其他数字有交集？判断网络f可达集与不安全区域S- 是否有交集？
+                    temp = []
+                    # print("neuron_i.concrete_lower：", neuron_i.concrete_lower)
+                    # print("neuron_i.concrete_upper：", neuron_i.concrete_upper)
+                    temp.append(neuron_i.concrete_lower)
+                    temp.append(neuron_i.concrete_upper)
+                    save_deeppoly_layer.append(temp)
+                    # print(f"save_deeppoly_layer:{save_deeppoly_layer}")
+                save_deeppoly.append(save_deeppoly_layer)
+
+        else:  # 不鲁棒!
+            # print('Unverified')
+            num = 0
+
+            # print(self.layerSizes)
+
+            len_layerSizes = (len(self.layerSizes)-1)*2
+            # print(len_layerSizes)
+
+            # save_deeppoly = []
+
+            for t in range(1, len_layerSizes+1):  # 从索引 1 开始
+                # print(f"t:{t}")
+                save_deeppoly_layer = []
+                for neuron_i in self.layers[t].neurons:  # 这么写表示和其他数字有交集？判断网络f可达集与不安全区域S- 是否有交集？
+                    temp = []
+                    # print("neuron_i.concrete_lower：", neuron_i.concrete_lower)
+                    # print("neuron_i.concrete_upper：", neuron_i.concrete_upper)
+                    temp.append(neuron_i.concrete_lower)
+                    temp.append(neuron_i.concrete_upper)
+                    save_deeppoly_layer.append(temp)
+                    # print(f"save_deeppoly_layer:{save_deeppoly_layer}")
+                save_deeppoly.append(save_deeppoly_layer)
+                # print(f"save_deeppoly:{save_deeppoly}")
+
+        return num, save_deeppoly
+
+
+
 
 
 
@@ -433,14 +497,14 @@ class network(object):
 
 def mnist_robustness_radius():
     net = network()
-    net.load_nnet("../../models/mnist_new_10x80/mnist_net_new_10x80.nnet")
-    property_list = ["../../mnist_properties/mnist_properties_10x80/mnist_property_" + str(i) + ".txt" for i in range(100)]
+    net.load_nnet("../../models/mnist_new_9x100/mnist_net_new_9x100.nnet")
+    property_list = ["../../mnist_properties/mnist_properties_9x100/mnist_property_" + str(i) + ".txt" for i in range(100)]
 
 
     if not os.path.isdir('../../result/original_result'):
         os.makedirs('../../result/original_result')
     style_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
-    file = open("../../result/original_result/mnist_new_10x80_deeppoly_radius_result_" + str(style_time) + ".txt", mode="w+", encoding="utf-8")
+    file = open("../../result/original_result/mnist_new_9x100_deeppoly_radius_result_" + str(style_time) + ".txt", mode="w+", encoding="utf-8")
 
     for property_i in property_list:
         start_time = time.time()
@@ -492,13 +556,13 @@ def test_robustness_number_poly(d):
     amount = 100
 
     net = network()
-    net.load_nnet("../../models/mnist_new_10x80/mnist_net_new_10x80.nnet")
-    property_list = ["../../mnist_properties/mnist_properties_10x80/mnist_property_" + str(i) + ".txt" for i in
+    net.load_nnet("../../models/mnist_new_9x200/mnist_net_new_9x200.nnet")
+    property_list = ["../../mnist_properties/mnist_properties_9x200/mnist_property_" + str(i) + ".txt" for i in
                      range(amount)]
 
     if not os.path.isdir('../../result/original_result'):
         os.makedirs('../../result/original_result')
-    file = open("../../result/original_result/mnist_new_10x80_deeppoly_number_result_delta_"+ str(d) +"_"+ str(style_time) +".txt", mode="w+", encoding="utf-8")
+    file = open("../../result/original_result/mnist_new_9x200_deeppoly_number_result_delta_"+ str(d) +"_"+ str(style_time) +".txt", mode="w+", encoding="utf-8")
 
     num_ans = 0
     time_ans = 0
@@ -550,7 +614,7 @@ if __name__ == "__main__":
     # mnist_robustness_radius()
     # cifar_robustness_radius()
 
-    test_robustness_number_poly(0.015)
+    test_robustness_number_poly(0.018)
 
 
 
